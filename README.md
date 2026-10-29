@@ -38,6 +38,14 @@ Sécurité : une Content-Security-Policy stricte est déclarée dans `index.html
 npm test    # ou : node tests/run_all.js
 ```
 
+## 🖨️ Export PDF des slides
+
+```sh
+npm run pdf    # génère amazing-halloween-slides.pdf à la racine
+```
+
+Le PDF reprend toutes les slides (illustration, texte, choix, fins). Un workflow GitHub Actions (`.github/workflows/pdf-artifact.yml`) le régénère à chaque push sur `main` touchant l'histoire ou les images, et le publie en **artifact téléchargeable** (`amazing-halloween-slides`, onglet *Actions* → run → *Artifacts*).
+
 Valide la structure de l'histoire (nœud `start`, nœuds tous atteignables, choix et images valides, fins rejouables) et les références statiques de `index.html` (CSP présente, fichiers référencés existants, image initiale présente, aucun script/handler inline).
 
 ## 🚀 Déploiement GitHub Pages

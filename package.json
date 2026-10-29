@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "Une soirée d'Halloween spéciale — histoire interactive statique (HTML/CSS/JS vanilla, aucune dépendance).",
   "scripts": {
-    "test": "node tests/run_all.js"
+    "test": "node tests/run_all.js",
+    "pdf": "node scripts/generate-pdf.mjs"
+  },
+  "devDependencies": {
+    "pdf-lib": "^1.17.1"
   }
 }
