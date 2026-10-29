@@ -1,0 +1,9 @@
+{
+  "name": "amazing-halloween",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Une soirée d'Halloween spéciale — histoire interactive statique (HTML/CSS/JS vanilla, aucune dépendance).",
+  "scripts": {
+    "test": "node tests/run_all.js"
+  }
+}

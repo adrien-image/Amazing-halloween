@@ -202,9 +202,9 @@ Un silence pesant s'installe. Puis la porte s'ouvre toute seule avec un petit cl
 
 En passant devant le miroir de l'entrée, vous vous arrêtez un instant. Vous distinguez votre propre reflet, celui de Mme Morticia… mais l'endroit où devrait apparaître Henri, derrière vous, est vide. Le miroir ne montre plus que le couloir désert.
 
-Dehors, il respire profondément et se persuade que la fatigue lui joue des tours. Un homme déclaré mort depuis quarante ans, une pendule figée à 23 h 44 et un reflet manquant… ce ne sont peut-être que des coïncidences.
+Dehors, vous respirez profondément et vous vous persuadez que la fatigue vous joue des tours. Un homme déclaré mort depuis quarante ans, une pendule figée à 23 h 44 et un reflet manquant… ce ne sont peut-être que des coïncidences.
 
-Il s'éloigne dans la nuit, avec le sentiment étrange d'avoir partagé un petit moment avec un homme qui attend toujours le retour de sa fille.`,
+Vous vous éloignez dans la nuit, avec le sentiment étrange d'avoir partagé un petit moment avec un homme qui attend toujours le retour de sa fille.`,
     ending: "FIN — Une visite inoubliable",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
@@ -353,7 +353,7 @@ Des pas résonnent dans l'escalier. Henri apparaît dans l'encadrement de la por
 
 Henri s'accroupit devant vous : « Vous savez, mon petit vampire, nous avons eu très peu de visiteurs ces dernières décennies. Et les rares qui sont venus… disons qu'ils ne sont jamais vraiment repartis. » Il dévoile lentement ses dents : deux canines anormalement longues brillent à la lumière des bougies.
 
-« Henri, sois gentil avec lui, murmure Yvonne. Il me rappelle tellement notre fils… »
+« Henri, sois gentil avec lui, murmure Yvonne. Il me rappelle tellement notre fille… »
 
 « Les enfants grandissent, ils partent… et nous, nous restons. Toujours. » Il approche son visage de votre cou. Vous sentez son souffle glacé sur votre peau.
 
@@ -440,3 +440,8 @@ Votre téléphone vibre. Deux messages d'un numéro inconnu :
     ]
   }
 };
+
+// Allow Node.js (tests) to load the story tree; in the browser STORY stays a global.
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = STORY;
+}
