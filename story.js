@@ -1,25 +1,11 @@
 const STORY = {
   start: {
     id: "start",
-    title: "🎃 Une soirée d'Halloween presque parfaite ?",
+    title: "Une soirée d'Halloween presque parfaite ?",
     image: "assets/img/slide-00-intro.jpg",
-    text: `Nous sommes le 31 octobre. Ce soir, vous êtes invité·e à une grande soirée d'Halloween chez des amis. Au programme : des déguisements plus ou moins réussis, de la musique à fond, des cocktails étranges et quelques bonbons pour les plus gourmand·es.
-
-Pour l'occasion, vous avez enfilé votre plus beau costume de vampire. Cape noire, dents pointues, teint blafard… Vous avez mis le paquet !
-
-La soirée bat son plein. Les conversations vont bon train, la piste de danse est bondée et certains invités commencent déjà à regretter d'avoir mélangé autant de boissons.
-
-Il est 23 h 30. Vous dansez tranquillement quand, soudain, un chat apparaît au beau milieu de la piste.
-
-Intrigué·e, vous vous approchez pour le caresser. C'est alors que vous remarquez son petit médaillon : vous reconnaissez immédiatement le nom de sa propriétaire, Mme Morticia, votre voisine d'en face.
-
-« Tiens, que fait donc son chat ici ? »
-
-Vous jetez un coup d'œil à la maison d'en face. Une lumière est encore allumée. Peut-être que Mme Morticia est encore debout pour accueillir les derniers enfants venus réclamer des bonbons.
-
-Vous décidez donc de ramener le petit fugueur chez lui.`,
+    text: ``,
     choices: [
-      { label: "Traverser la rue et sonner chez Mme Morticia", next: "doorway" }
+      { label: "Commencez l'histoire", next: "doorway" }
     ]
   },
 
@@ -138,8 +124,8 @@ Est-il endormi ?
 
 Que faites-vous ?`,
     choices: [
-      { label: "CHOIX A — Lui signaler votre présence : « Heu… Monsieur ? C'est votre femme qui m'a demandé de vous monter un verre d'eau. Je vous le pose où ? »", next: "choixA" },
-      { label: "CHOIX B — Vous approcher à pas de loup et déposer délicatement le verre sur la table de chevet", next: "choixB" }
+      { label: "Lui signaler votre présence : « Heu… Monsieur ? C'est votre femme qui m'a demandé de vous monter un verre d'eau. Je vous le pose où ? »", next: "choixA" },
+      { label: "Vous approcher à pas de loup et déposer délicatement le verre sur la table de chevet", next: "choixB" }
     ]
   },
 
@@ -215,8 +201,8 @@ Visiblement troublé par cette odeur, le vieil homme avait déclaré tout cela �
 
 Que faites-vous ?`,
     choices: [
-      { label: "CHOIX A.1 — Partir maintenant : dans un dernier élan de désespoir, lui souffler votre haleine à l'ail en plein visage", next: "a1" },
-      { label: "CHOIX A.2 — Rentrer dans son jeu : lui proposer un marché pour qu'il ouvre la porte, en lui promettant un plat spécial", next: "a2" }
+      { label: "Partir maintenant : dans un dernier élan de désespoir, lui souffler votre haleine à l'ail en plein visage", next: "a1" },
+      { label: "Rentrer dans son jeu : lui proposer un marché pour qu'il ouvre la porte, en lui promettant un plat spécial", next: "a2" }
     ]
   },
   a1: {
@@ -263,8 +249,8 @@ Gloups.
 
 Mais où est-ce que vous êtes tombé ?! Et surtout… qu'est-ce que vous allez faire ?`,
     choices: [
-      { label: "A.1.1 — Faire semblant que votre téléphone vibre dans votre poche", next: "a11" },
-      { label: "A.1.2 — Décider d'aller boire ce café (de toute façon, un vieux de 96 ans, personne ne le croira jamais)", next: "a12" }
+      { label: "Faire semblant que votre téléphone vibre dans votre poche", next: "a11" },
+      { label: "Décider d'aller boire ce café (de toute façon, un vieux de 96 ans, personne ne le croira jamais)", next: "a12" }
     ]
   },
 
@@ -315,7 +301,7 @@ Le lendemain matin, vous découvrez deux petits points noirs sur votre cou. Deux
 Et dans votre boîte aux lettres, une carte :
 
 « Merci pour cette charmante soirée. Revenez quand vous voulez ! Henri et Yvonne Morticia. »`,
-    ending: "FIN — Échappé de justesse",
+    ending: "FIN ! — Échappé de justesse",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
     ]
@@ -407,7 +393,7 @@ Au dos, une inscription soigneusement calligraphiée :
 « Notre famille s'agrandit. 31 octobre 2026. Pour toujours. »
 
 Dehors, la nuit tombe. Et dans la maison des Morticia, personne ne semble avoir remarqué votre absence.`,
-    ending: "FIN — La famille s'agrandit",
+    ending: "FIN ! — La famille s'agrandit",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
     ]
@@ -449,8 +435,8 @@ Au moment de servir, vous décidez d'ajouter la touche finale.
 
 Que mettez-vous ?`,
     choices: [
-      { label: "A.2.1 — Une goutte de votre sang : « Comme j'ai mangé de l'ail, le goût devrait s'y retrouver, non ? »", next: "a21" },
-      { label: "A.2.2 — Une toute petite tranche d'ail, puis trancher le pain avec le même couteau (une simple trace)", next: "a22" }
+      { label: "Une goutte de votre sang : « Comme j'ai mangé de l'ail, le goût devrait s'y retrouver, non ? »", next: "a21" },
+      { label: "Une toute petite tranche d'ail, puis trancher le pain avec le même couteau (une simple trace)", next: "a22" }
     ]
   },
   a21: {
@@ -530,7 +516,7 @@ Sur la table, une tasse de café fume encore doucement.
 À côté, un petit mot vient d'apparaître, écrit d'une écriture élégante :
 
 « Merci d'avoir pris soin de mon Henri. Il ne faut pas le laisser seul trop longtemps. Il s'ennuie tellement depuis mon départ… À l'année prochaine ! — Yvonne »`,
-    ending: "FIN — L'allergie annuelle",
+    ending: "FIN ! — L'allergie annuelle",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
     ]
@@ -613,7 +599,7 @@ Vous sentez un frisson vous parcourir le dos.
 Un second message arrive.
 
 « Un pacte est un pacte. Dommage que vous n'ayez pas tenu le vôtre. Henri. »`,
-    ending: "FIN — Le goût perdu",
+    ending: "FIN ! — Le goût perdu",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
     ]
@@ -670,8 +656,8 @@ Vous lui expliquez alors que c'est sa femme qui vous a demandé de monter, que v
 
 Que faites-vous maintenant ?`,
     choices: [
-      { label: "CHOIX B.1 — Lui montrer le cadre tombé : « Je suis désolé… Tenez, je crois que c'est à vous. »", next: "b1a" },
-      { label: "CHOIX B.2 — Chercher un objet pour ouvrir la porte coincée", next: "b2" }
+      { label: "Lui montrer le cadre tombé : « Je suis désolé… Tenez, je crois que c'est à vous. »", next: "b1a" },
+      { label: "Chercher un objet pour ouvrir la porte coincée", next: "b2" }
     ]
   },
 
@@ -713,8 +699,8 @@ Un silence pesant s'installe dans la chambre.
 
 Gêné par ce silence, que faites-vous ?`,
     choices: [
-      { label: "CHOIX B.1.1 — Lui parler de votre grand amour", next: "b11" },
-      { label: "CHOIX B.1.2 — Remarquer l'échiquier posé sur une petite table et lui demander qui gagne", next: "b12" }
+      { label: "Lui parler de votre grand amour", next: "b11" },
+      { label: "Remarquer l'échiquier posé sur une petite table et lui demander qui gagne", next: "b12" }
     ]
   },
   b11: {
@@ -774,7 +760,7 @@ Vous ne saurez jamais vraiment qui était Henri Morticia, ni pourquoi il vous a 
 Mais, à cet instant, vous en êtes certain·e : votre promesse, elle aussi, traversera le temps.
 
 Après tout, certaines histoires d'amour ne connaissent pas de fin… même après la mort.`,
-    ending: "FIN — L'amour ne meurt jamais",
+    ending: "FIN ! — L'amour ne meurt jamais",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
     ]
@@ -882,7 +868,7 @@ Un éclair de lumière traverse la fenêtre. Et la silhouette disparaît.
 Vous restez pétrifié quelques secondes avant de vous précipiter vers la fête, bien décidé à ne plus jamais remettre les pieds dans cette maison.
 
 Mais, depuis cette nuit-là, chaque fois que vous vous asseyez devant un échiquier, vous avez la désagréable impression que quelqu'un, quelque part, attend patiemment sa revanche.`,
-    ending: "FIN — Échec et mat",
+    ending: "FIN ! — Échec et mat",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
     ]
@@ -925,8 +911,8 @@ Vous vous immobilisez. Dans le reflet de la vitre, vous distinguez sa silhouette
 
 Vous regardez sur la table et vous choisissez…`,
     choices: [
-      { label: "CHOIX B.2.1 — La lettre à l'adresse manuscrite, adressée à M. Morticia, timbrée des USA", next: "b21" },
-      { label: "CHOIX B.2.2 — La lettre tapée à la machine, adressée à Mme Morticia", next: "b22" }
+      { label: "La lettre à l'adresse manuscrite, adressée à M. Morticia, timbrée des USA", next: "b21" },
+      { label: "La lettre tapée à la machine, adressée à Mme Morticia", next: "b22" }
     ]
   },
 
@@ -977,7 +963,7 @@ Avant de quitter la maison, vous caressez doucement le chat et lui murmurez :
 Minou ronronne, comme s'il avait compris.
 
 Vous vous éloignez dans la nuit, avec le sentiment étrange d'avoir partagé un petit moment de bonheur avec un homme qui, depuis bien trop longtemps, attend toujours le retour de sa fille.`,
-    ending: "FIN — L'attente d'une fille",
+    ending: "FIN ! — L'attente d'une fille",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
     ]
@@ -1055,7 +1041,7 @@ Il cligne des yeux. Le miroir ne montre plus que le couloir désert.
 Dehors, vous respirez profondément et vous persuadez que la fatigue lui joue des tours.
 
 Après tout, un homme déclaré mort depuis quarante ans, une pendule figée à 23 h 44 et un reflet manquant… ce ne sont peut-être que des coïncidences.`,
-    ending: "FIN — Le reflet manquant",
+    ending: "FIN ! — Le reflet manquant",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
     ]
