@@ -1,7 +1,7 @@
 const STORY = {
   start: {
     id: "start",
-    title: "La Maison des Morticia",
+    title: "Une soirée d'Halloween spéciale",
     image: "assets/img/slide-00-title.jpg",
     text: `Nous sommes le 31 octobre. Ce soir, vous êtes invité·e à une grande soirée d'Halloween chez des amis.
 

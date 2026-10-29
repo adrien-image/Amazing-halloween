@@ -1,4 +1,4 @@
-# 🎃 La Maison des Morticia — une histoire interactive d'Halloween
+# 🎃 Une soirée d'Halloween spéciale — une histoire interactive d'Halloween
 
 Site web interactif basé sur une histoire à choix multiples. Chaque slide est illustrée par une image générée spécialement pour le texte associé.
 
