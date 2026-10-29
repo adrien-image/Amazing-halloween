@@ -27,7 +27,7 @@ Site statique (HTML/CSS/JS vanilla, aucune dépendance) :
 - `style.css` — thème Halloween (brume, citrouille, ambiance gothique)
 - `story.js` — arbre de l'histoire (slides, textes, choix), chargeable aussi sous Node pour les tests
 - `app.js` — moteur de navigation (historique, retour, clavier ←/→, préchargement des images, gestion d'erreurs)
-- `assets/img/` — une image générée par slide (14 images)
+- `assets/img/` — une image générée par slide (20 slides, 20 images)
 - `tests/` — tests de validation sans dépendance (`node tests/run_all.js` ou `npm test`)
 
 Sécurité : une Content-Security-Policy stricte est déclarée dans `index.html` (`default-src 'self'`, scripts et feuilles de style locaux uniquement, seules les polices Google Fonts sont autorisées en externe). Aucun script inline, aucun gestionnaire d'événement inline.
