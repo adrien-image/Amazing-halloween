@@ -19,6 +19,19 @@
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
 
+  function fitText() {
+    const el = els.text;
+    const max = 18;
+    const min = 11;
+    let size = max;
+    el.style.fontSize = size + "px";
+    el.style.lineHeight = "1.55";
+    while (size > min && el.scrollHeight > el.clientHeight) {
+      size -= 0.5;
+      el.style.fontSize = size + "px";
+    }
+  }
+
   function renderText(raw) {
     const escaped = escapeHtml(raw);
     const withDialogues = escaped.replace(/«([^»]+)»/g, '<span class="dialogue">«$1»</span>');
@@ -61,6 +74,8 @@
     els.slide.style.animation = "none";
     void els.slide.offsetWidth;
     els.slide.style.animation = "";
+
+    requestAnimationFrame(fitText);
   }
 
   els.back.addEventListener("click", function () {
@@ -80,4 +95,10 @@
   });
 
   render("start");
+
+  let resizeTimer = null;
+  window.addEventListener("resize", function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(fitText, 120);
+  });
 })();
