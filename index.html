@@ -3,6 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Une soirée d'Halloween spéciale — une histoire interactive à choix multiples où chaque décision peut réserver des surprises… glaçantes." />
+  <meta name="theme-color" content="#0b0710" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+  <meta property="og:title" content="Une soirée d'Halloween spéciale" />
+  <meta property="og:description" content="Une histoire interactive d'Halloween à choix multiples. Jusqu'où irez-vous ?" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/slide-00-intro.jpg" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%83%3C/text%3E%3C/svg%3E" />
   <title>Une soirée d'Halloween spéciale</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,13 +22,13 @@
   <div class="fog fog-2"></div>
 
   <main id="app">
-    <section id="slide" class="slide">
+    <section id="slide" class="slide" aria-live="polite">
       <div class="slide-image-wrap">
         <img id="slide-image" src="assets/img/slide-00-intro.jpg" alt="Illustration de la scène" />
         <div class="vignette"></div>
       </div>
       <div class="slide-content">
-        <h1 id="slide-title" class="slide-title"></h1>
+        <h1 id="slide-title" class="slide-title" tabindex="-1"></h1>
         <div id="slide-text" class="slide-text"></div>
         <div id="choices" class="choices"></div>
         <div class="slide-nav">
