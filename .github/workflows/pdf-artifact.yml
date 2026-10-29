@@ -1,0 +1,65 @@
+name: Build slides PDF artifact
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "story.js"
+      - "assets/img/**"
+      - "scripts/generate-pdf.mjs"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/pdf-artifact.yml"
+  pull_request:
+    paths:
+      - "story.js"
+      - "assets/img/**"
+      - "scripts/generate-pdf.mjs"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/pdf-artifact.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "pdf-artifact"
+  cancel-in-progress: true
+
+jobs:
+  pdf:
+    name: Generate slides PDF
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run story validation tests
+        run: npm test
+
+      - name: Generate PDF
+        run: npm run pdf -- amazing-halloween-slides.pdf
+
+      - name: Verify PDF
+        run: |
+          test -s amazing-halloween-slides.pdf
+          head -c 5 amazing-halloween-slides.pdf | grep -q "%PDF-"
+          echo "PDF OK: $(stat -c%s amazing-halloween-slides.pdf) bytes"
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: amazing-halloween-slides
+          path: amazing-halloween-slides.pdf
+          retention-days: 30
+          if-no-files-found: error
