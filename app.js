@@ -1,10 +1,12 @@
 (function () {
-  const state = {
+  "use strict";
+
+  var state = {
     current: "start",
     history: ["start"]
   };
 
-  const els = {
+  var els = {
     image: document.getElementById("slide-image"),
     title: document.getElementById("slide-title"),
     text: document.getElementById("slide-text"),
@@ -15,15 +17,38 @@
     slide: document.getElementById("slide")
   };
 
+  // Matches the mobile breakpoint in style.css: there the text scrolls instead of shrinking.
+  var NARROW = window.matchMedia("(max-width: 860px)");
+
   function escapeHtml(s) {
-    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  // Only allow local relative image paths (defense in depth for STORY data).
+  function safeImage(src) {
+    return typeof src === "string" && src.indexOf(":") === -1 && src.charAt(0) !== "/" ? src : "";
+  }
+
+  function renderText(raw) {
+    var escaped = escapeHtml(raw);
+    var withDialogues = escaped.replace(/«([^»]+)»/g, '<span class="dialogue">«$1»</span>');
+    return withDialogues.replace(/\b(CHOIX [A-Z0-9.]+)/g, "<em>$1</em>");
   }
 
   function fitText() {
-    const el = els.text;
-    const max = 18;
-    const min = 11;
-    let size = max;
+    if (NARROW.matches) {
+      els.text.style.fontSize = "";
+      return;
+    }
+    var el = els.text;
+    var max = 18;
+    var min = 11;
+    var size = max;
     el.style.fontSize = size + "px";
     el.style.lineHeight = "1.55";
     while (size > min && el.scrollHeight > el.clientHeight) {
@@ -32,34 +57,49 @@
     }
   }
 
-  function renderText(raw) {
-    const escaped = escapeHtml(raw);
-    const withDialogues = escaped.replace(/«([^»]+)»/g, '<span class="dialogue">«$1»</span>');
-    return withDialogues.replace(/\b(CHOIX [A-Z0-9.]+)/g, "<em>$1</em>");
+  function showError(message) {
+    els.title.textContent = "Oups…";
+    els.text.innerHTML = '<p class="error">' + escapeHtml(message) + "</p>";
+    els.choices.innerHTML = "";
+    els.image.removeAttribute("src");
+    els.image.alt = "";
+    els.breadcrumb.textContent = "";
+    els.back.disabled = state.history.length <= 1;
   }
 
   function render(nodeId) {
-    const node = STORY[nodeId];
-    if (!node) return;
+    var node = STORY[nodeId];
+    if (!node || typeof node !== "object") {
+      showError("Cette page de l'histoire est introuvable (« " + nodeId + " »).");
+      return;
+    }
 
     state.current = nodeId;
 
-    els.image.src = node.image;
-    els.image.alt = "Illustration — " + node.title;
+    var img = safeImage(node.image);
+    if (img) {
+      els.image.src = img;
+      els.image.alt = "Illustration — " + node.title;
+      els.image.style.visibility = "visible";
+    } else {
+      els.image.removeAttribute("src");
+      els.image.alt = "";
+    }
     els.title.textContent = node.title;
 
-    const ending = node.ending
+    var ending = node.ending
       ? '<span class="ending-badge">🏁 ' + escapeHtml(node.ending) + "</span>\n"
       : "";
     els.text.innerHTML = ending + renderText(node.text);
     els.text.scrollTop = 0;
 
     els.choices.innerHTML = "";
-    node.choices.forEach(function (choice) {
-      const btn = document.createElement("button");
+    (node.choices || []).forEach(function (choice) {
+      if (!choice || !choice.next) return;
+      var btn = document.createElement("button");
       btn.type = "button";
       btn.className = "btn btn-choice";
-      btn.textContent = choice.label;
+      btn.textContent = choice.label || choice.next;
       btn.addEventListener("click", function () {
         state.history.push(choice.next);
         render(choice.next);
@@ -69,14 +109,20 @@
     });
 
     els.back.disabled = state.history.length <= 1;
-    els.breadcrumb.textContent = "Chapitre " + state.history.length + " — " + Object.keys(STORY).indexOf(nodeId) + "/" + (Object.keys(STORY).length - 1);
+    els.breadcrumb.textContent = "Chapitre " + state.history.length;
 
     els.slide.style.animation = "none";
     void els.slide.offsetWidth;
     els.slide.style.animation = "";
 
     requestAnimationFrame(fitText);
+    els.title.focus({ preventScroll: true });
   }
+
+  // Hide the frame instead of showing a broken-image icon if a file is missing.
+  els.image.addEventListener("error", function () {
+    els.image.style.visibility = "hidden";
+  });
 
   els.back.addEventListener("click", function () {
     if (state.history.length <= 1) return;
@@ -90,13 +136,27 @@
   });
 
   document.addEventListener("keydown", function (e) {
-    if (e.key === "ArrowLeft") els.back.click();
-    if (e.key === "ArrowRight" && els.choices.firstChild) els.choices.firstChild.click();
+    if (e.key === "ArrowLeft" && !els.back.disabled) {
+      e.preventDefault();
+      els.back.click();
+    } else if (e.key === "ArrowRight" && els.choices.firstChild) {
+      e.preventDefault();
+      els.choices.firstChild.click();
+    }
+  });
+
+  // Preload every slide image so transitions don't flash the previous picture.
+  Object.keys(STORY).forEach(function (id) {
+    var img = safeImage(STORY[id] && STORY[id].image);
+    if (img) {
+      var pre = new Image();
+      pre.src = img;
+    }
   });
 
   render("start");
 
-  let resizeTimer = null;
+  var resizeTimer = null;
   window.addEventListener("resize", function () {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(fitText, 120);

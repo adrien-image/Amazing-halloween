@@ -123,8 +123,12 @@ html, body {
   padding-right: 6px;
   white-space: pre-line;
 }
+.slide-title:focus { outline: none; }
+.slide-title:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 6px; }
+
 .slide-text em { color: #d9b8ff; font-style: italic; }
 .slide-text .dialogue { color: #ffd9a8; }
+.slide-text .error { color: #ff9a9a; font-style: italic; }
 
 .choices {
   display: flex;
