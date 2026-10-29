@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Maison des Morticia — Une histoire d'Halloween</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=IM+Fell+English:ital@0;1&family=Special+Elite&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="fog fog-1"></div>
+  <div class="fog fog-2"></div>
+
+  <main id="app">
+    <section id="slide" class="slide">
+      <div class="slide-image-wrap">
+        <img id="slide-image" src="assets/img/slide-00-title.jpg" alt="Illustration de la scène" />
+        <div class="vignette"></div>
+      </div>
+      <div class="slide-content">
+        <h1 id="slide-title" class="slide-title"></h1>
+        <div id="slide-text" class="slide-text"></div>
+        <div id="choices" class="choices"></div>
+        <div class="slide-nav">
+          <button id="btn-back" class="btn btn-ghost" type="button">← Retour</button>
+          <span id="breadcrumb" class="breadcrumb"></span>
+          <button id="btn-restart" class="btn btn-ghost" type="button">↺ Recommencer</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="story.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
