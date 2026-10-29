@@ -3,7 +3,7 @@ const STORY = {
     id: "start",
     title: "Une soirée d'Halloween spéciale",
     image: "assets/img/slide-00-intro.jpg",
-    text: `Nous sommes le 31 octobre. Ce soir, vous êtes invité·e à une grande soirée d'Halloween chez des amis.
+    text: `Nous sommes le 31 octobre. Ce soir, vous êtes invité à une grande soirée d'Halloween chez des amis.
 
 Au programme : déguisements plus ou moins réussis, musique à fond, cocktails étranges et quelques bonbons.
 
@@ -21,7 +21,7 @@ Pour l'occasion, vous avez enfilé votre plus beau costume de vampire. Cape noir
 
 Il est 23 h 30. Vous dansez tranquillement quand, soudain, un chat apparaît au beau milieu de la piste.
 
-Intrigué·e, vous vous approchez pour le caresser. C'est alors que vous remarquez son petit médaillon : vous reconnaissez immédiatement le nom de sa propriétaire, Mme Morticia, votre voisine d'en face.
+Intrigué, vous vous approchez pour le caresser. C'est alors que vous remarquez son petit médaillon : vous reconnaissez immédiatement le nom de sa propriétaire, Mme Morticia, votre voisine d'en face.
 
 Tiens, que fait donc son chat ici ?
 
@@ -57,7 +57,7 @@ Vous franchissez le seuil.`,
 
 Mme Morticia vous invite à vous asseoir près de la cheminée. « Vous prendrez bien un petit café ? »
 
-Vous déclinez poliment — il est presque 23 h 30 — mais elle insiste : « Vous venez de me ramener la prunelle de mes yeux ! »
+Vous déclinez poliment — il est presque 23 h 40 — mais elle insiste : « Vous venez de me ramener la prunelle de mes yeux ! »
 
 Vous finissez par accepter. Pendant qu'elle prépare le café, elle vous raconte comment Minou est entré dans sa vie…
 
@@ -74,7 +74,7 @@ Elle vous adresse un clin d'œil amusé. « Troisième porte à gauche, en haut 
   hallway: {
     id: "hallway",
     title: "L'escalier qui grince",
-    image: "assets/img/slide-04-hallway.jpg",
+    image: "assets/img/slide-21-hallway-up.jpg",
     text: `Vous remplissez un verre d'eau dans la cuisine et montez les marches, qui grincent sous vos pieds. À l'étage, le couloir est plongé dans la pénombre. Seule la lumière des lampadaires, filtrant à travers une fenêtre au fond, éclaire faiblement les lieux.
 
 Première porte à gauche. Deuxième à gauche.
@@ -140,7 +140,7 @@ Que faites-vous ?`,
   choixB: {
     id: "choixB",
     title: "Le cadre photo qui tombe",
-    image: "assets/img/slide-05-room.jpg",
+    image: "assets/img/slide-14-frame.jpg",
     text: `Un objet tombe soudainement par terre. Vous baissez les yeux : un vieux cadre photo vient de glisser du bord de la table de chevet.
 
 Vous vous accroupissez pour le ramasser. La photographie, en noir et blanc, représente un jeune couple en tenue de mariage. L'homme ressemble étrangement au vieillard assis devant la fenêtre.
@@ -164,7 +164,7 @@ Une voix s'élève alors, juste derrière vous : « Vous n'auriez pas dû entrer
   b1: {
     id: "b1",
     title: "« Vous n'auriez pas dû venir ici »",
-    image: "assets/img/slide-11-mirror.jpg",
+    image: "assets/img/slide-15-henri-face.jpg",
     text: `Face à vous, un homme âgé, très âgé… le visage triste, fermé, cadavérique, presque transparent. Habillé de manière très chic. Tout le malheur du monde semble lui peser sur le dos.
 
 Vous lui expliquez alors que c'est sa femme qui vous a demandé de monter, que vous ne vouliez pas le réveiller, qu'en posant le verre le cadre est tombé et la porte a claqué.
@@ -179,7 +179,7 @@ Que faites-vous maintenant ?`,
   b1a: {
     id: "b1a",
     title: "« Yvonne… Elle était si belle »",
-    image: "assets/img/slide-12-letters.jpg",
+    image: "assets/img/slide-16-henri-frame.jpg",
     text: `Le vieil homme fixe le cadre. Son expression change : pendant un instant, sa mine sévère laisse place à une profonde tristesse.
 
 « Yvonne… Elle était si belle, vous savez. Elle avait cette façon de rire… On aurait dit que rien de mauvais ne pouvait arriver tant qu'elle était là. Et maintenant, il ne me reste que ça. Des souvenirs et des photographies. »
@@ -197,14 +197,14 @@ Un silence pesant s'installe. Puis la porte s'ouvre toute seule avec un petit cl
   b1a_end: {
     id: "b1a_end",
     title: "Le reflet manquant",
-    image: "assets/img/slide-13-ending.jpg",
+    image: "assets/img/slide-11-mirror.jpg",
     text: `Vous descendez l'escalier et retrouvez Mme Morticia, qui vous accueille avec un sourire chaleureux : « Alors, vous avez rencontré mon mari ? J'espère qu'il ne vous a pas trop effrayé ! »
 
-En passant devant le miroir de l'entrée, vous vous arrêtez un instant. Vous distinguez votre propre reflet, celui de Mme Morticia… mais l'endroit où devrait apparaître Henri, derrière vous, est vide. Le miroir ne montre plus que le couloir désert.
+En passant devant le miroir de l'entrée, vous vous arrêtez un instant. Vous distinguez votre propre reflet, celui de Mme Morticia… mais l'endroit où devrait apparaître Henri, qui vous a raccompagné jusqu'au seuil, est vide. Le miroir ne montre plus que le couloir désert.
 
-Dehors, vous respirez profondément et vous vous persuadez que la fatigue vous joue des tours. Un homme déclaré mort depuis quarante ans, une pendule figée à 23 h 44 et un reflet manquant… ce ne sont peut-être que des coïncidences.
+Dehors, vous respirez profondément et vous vous persuadez que la fatigue vous joue des tours. Une pendule qui s’arrête à 23 h 44, un reflet manquant… ce ne sont peut-être que des coïncidences.
 
-Vous vous éloignez dans la nuit, avec le sentiment étrange d'avoir partagé un petit moment avec un homme qui attend toujours le retour de sa fille.`,
+Vous vous éloignez dans la nuit, avec le sentiment étrange d'avoir partagé un petit moment avec un homme qui semble attendre quelqu'un depuis très longtemps.`,
     ending: "FIN — Une visite inoubliable",
     choices: [
       { label: "↺ Rejouer l'histoire", next: "start" }
@@ -214,14 +214,14 @@ Vous vous éloignez dans la nuit, avec le sentiment étrange d'avoir partagé un
   b2: {
     id: "b2",
     title: "Allumer la lumière",
-    image: "assets/img/slide-11-mirror.jpg",
+    image: "assets/img/slide-17-room-lit.jpg",
     text: `Vous désignez la porte derrière vous : « La porte semble coincée. Il faudrait que je trouve quelque chose pour l'ouvrir. »
 
 Vous cherchez l'interrupteur et le trouvez. CLIC. La lumière s'allume brusquement.
 
 La chambre apparaît clairement : meubles anciens, rideaux épais, une bibliothèque couverte de poussière… et des dizaines de photographies sur les murs. Sur chacune d'elles, le même couple. Le grand-père et Yvonne.
 
-Vous vous approchez d'une photo près de la porte : le couple pose devant une maison, habillé comme pour une grande occasion. Au bas du cadre : 31 octobre 1932. Une autre, puis une troisième… Les années changent, les vêtements aussi, mais les deux visages restent étrangement semblables.
+Vous vous approchez d'une photo près de la porte : le couple pose devant une maison, habillé comme pour une grande occasion. Au bas du cadre : 31 octobre 1952. Une autre, puis une troisième… Les années changent, les vêtements aussi, mais les deux visages restent étrangement semblables.
 
 Vous cherchez un objet pour débloquer la porte. Sur le bureau, un vieux coupe-papier en métal. Vous tentez de glisser la lame entre la porte et son encadrement.
 
@@ -239,16 +239,16 @@ Dans le reflet de la vitre, vous distinguez sa silhouette debout, juste derrièr
   b21: {
     id: "b21",
     title: "La lettre d'Élise",
-    image: "assets/img/slide-12-letters.jpg",
+    image: "assets/img/slide-23-elise.jpg",
     text: `« Mon cher papa, Los Angeles est vraiment un endroit incroyable ! Hier, avec Maryse, nous sommes allées découvrir Hollywood. Tu aurais adoré ! J'ai hâte de rentrer pour passer Halloween avec vous. Tu sais bien que c'est ma fête préférée ! Je vous embrasse fort tous les deux. À très bientôt ! Votre fille qui vous aime, Élise. »
 
 Henri garde les yeux baissés sur la lettre. « Elle n'est jamais rentrée. Elle devait revenir quelques semaines plus tard, juste à temps pour Halloween. Mais je n'ai plus jamais eu de nouvelles. »
 
 Soudain, un petit clic : la porte s'ouvre toute seule. « Ah, ne vous inquiétez pas ! Ça arrive parfois. La maison est vieille, les serrures n'en font qu'à leur tête. »
 
-Minou se faufile dans la chambre et vient se frotter contre ses jambes. « Ce chat lui appartient, vous savez. Il me rappelle ma fille, dans sa façon de se glisser partout et de réclamer de l'attention. Elle adorait Halloween… »
+Minou se faufile dans la chambre et vient se frotter contre ses jambes. « Ce chat est adorable, vous savez. Il me rappelle ma fille, dans sa façon de se glisser partout et de réclamer de l'attention. Elle adorait Halloween… »
 
-Vous saluez Henri, descendez l'escalier avec Minou dans les bras et, avant de quitter la maison, vous lui murmurez : « Promis, l'année prochaine, je te laisserai profiter de la fête un peu plus longtemps avant de te ramener chez toi ! »
+Vous saluez Henri, descendez l'escalier avec Minou dans les bras et, avant de quitter la maison, vous lui murmurez : « Promis, la prochaine fois, je vous ramènerai Minou un peu plus tôt, après la fête ! »
 
 Minou ronronne, comme s'il avait compris.`,
     ending: "FIN — L'attente d'une fille",
@@ -260,7 +260,7 @@ Minou ronronne, comme s'il avait compris.`,
   b22: {
     id: "b22",
     title: "« Vous avez été déclaré mort en 1986 »",
-    image: "assets/img/slide-12-letters.jpg",
+    image: "assets/img/slide-22-notaire.jpg",
     text: `C'est une lettre tapée à la machine, du notaire Maître Delorme, objet : « Succession de Monsieur Henri Morticia », indiquant qu'il a été officiellement déclaré décédé le 14 novembre 1986.
 
 « Excusez-moi, Monsieur Morticia… Cette lettre indique que vous avez été déclaré mort en 1986. Pourtant, vous êtes bien là. »
@@ -289,7 +289,7 @@ BAM ! La porte s'ouvre brusquement. Le vieux cesse immédiatement de tousser et 
 
 Il est temps de partir. Tout de suite !
 
-Vous vous élancez dans le couloir à toute vitesse, dévalez les deux étages trois marches à la fois. En deux minutes chrono, vous voilà en bas ! Plus que trois mètres avant la porte d'entrée quand…
+Vous vous élancez dans le couloir à toute vitesse, dévalez l'escalier trois marches à la fois. En deux minutes chrono, vous voilà en bas ! Plus que trois mètres avant la porte d'entrée quand…
 
 « Vous partez déjà ? »
 
@@ -311,7 +311,7 @@ Où êtes-vous tombé ? Et surtout… qu'allez-vous faire ?`,
   a11: {
     id: "a11",
     title: "« Votre téléphone est éteint, pourtant »",
-    image: "assets/img/slide-13-ending.jpg",
+    image: "assets/img/slide-18-fleeing.jpg",
     text: `Vous faites semblant de sentir votre téléphone vibrer. « Oh ! Excusez-moi, c'est très important, je dois absolument répondre ! Allô ? QUOI ?! Mais c'est terrible ! J'arrive tout de suite ! »
 
 Mme Morticia vous observe sans ciller. « Un problème, mon petit vampire ? » Vous hochez frénétiquement la tête et tentez de vous diriger vers la porte. « Oui, oui, un problème très grave ! »
@@ -338,7 +338,7 @@ Et dans votre boîte aux lettres, une carte : « Merci pour cette charmante soir
   a12: {
     id: "a12",
     title: "Trois tasses de café",
-    image: "assets/img/slide-10-feast.jpg",
+    image: "assets/img/slide-08-allergy.jpg",
     text: `Vous décidez d'aller boire ce café. « Après tout, qu'est-ce que vous risquez ? Personne ne croira jamais qu'un vieillard de 96 ans est un vampire. Et puis, vous n'allez pas vexer une pauvre grand-mère ! »
 
 « Avec plaisir, madame Morticia ! Un petit café, ça ne se refuse pas ! » Son visage s'illumine : « Oh, quelle joie ! Henri va être ravi ! »
@@ -370,7 +370,7 @@ Le lendemain matin, Mme Morticia arrose tranquillement ses plantes. Sur la commo
     image: "assets/img/slide-07-kitchen.jpg",
     text: `Vous décidez de rentrer dans son jeu et de lui proposer un marché : s'il vous aide à ouvrir la porte, vous lui donnerez de quoi retrouver le goût de l'ail sans avoir à en manger.
 
-Le grand-père s'arrête net. « Vous feriez ça pour moi ? Après tout, vous n'êtes qu'un inconnu… » Il semble sincèrement ému. Puis un sourire inquiétant se dessine. « Mais dites-moi… Vous savez ce qui se passe quand on rompt un pacte avec quelqu'un comme moi ? »
+Le grand-père s'arrête net. « Vous feriez ça pour moi ? Je croyais pourtant vous avoir reconnu, tout à l'heure… » Il semble sincèrement ému. Puis un sourire inquiétant se dessine. « Mais dites-moi… Vous savez ce qui se passe quand on rompt un pacte avec quelqu'un comme moi ? »
 
 Vous répondez avec assurance que vous tiendrez parole. Il vous fait signe d'approcher. Vous vous dirigez vers la porte, qui s'ouvre sans la moindre résistance. C'est alors que vous remarquez deux petits points noirs sur votre peau, comme les marques laissées par une morsure.
 
@@ -388,7 +388,7 @@ Vous improvisez une omelette aux restes. Au moment de servir, vous hésitez sur 
   a21: {
     id: "a21",
     title: "L'omelette au sang",
-    image: "assets/img/slide-08-allergy.jpg",
+    image: "assets/img/slide-19-note.jpg",
     text: `Vous remontez avec votre assiette : « Voilà, monsieur Morticia ! Une omelette maison, avec une petite touche personnelle. »
 
 Le vieil homme observe le plat, intrigué, puis prend une première bouchée. Silence. Il ferme les yeux. Un sourire béat se dessine. « Mon Dieu… Mais c'est délicieux ! Je n'avais pas goûté quelque chose d'aussi bon depuis… depuis Yvonne ! » Il dévore l'omelette jusqu'à la dernière miette. Pacte honoré !
@@ -413,7 +413,7 @@ Sur la table, une tasse de café fume encore. À côté, un petit mot est apparu
   a22: {
     id: "a22",
     title: "« Un pacte est un pacte »",
-    image: "assets/img/slide-06-henri.jpg",
+    image: "assets/img/slide-20-plate.jpg",
     text: `Vous remontez avec votre plateau : « Voilà, monsieur Morticia ! Une omelette maison et du pain grillé, avec une petite touche spéciale, comme promis ! »
 
 Henri attrape une tranche de pain, la porte à sa bouche, mâche lentement, ferme les yeux… puis s'immobilise. « Non… Non, non, non… »
