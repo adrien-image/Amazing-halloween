@@ -11,6 +11,8 @@
     title: document.getElementById("slide-title"),
     text: document.getElementById("slide-text"),
     choices: document.getElementById("choices"),
+    homeActions: document.getElementById("home-actions"),
+    start: document.getElementById("btn-start"),
     back: document.getElementById("btn-back"),
     restart: document.getElementById("btn-restart"),
     breadcrumb: document.getElementById("breadcrumb"),
@@ -36,8 +38,7 @@
 
   function renderText(raw) {
     var escaped = escapeHtml(raw);
-    var withDialogues = escaped.replace(/«([^»]+)»/g, '<span class="dialogue">«$1»</span>');
-    return withDialogues.replace(/\b(CHOIX [A-Z0-9.]+)/g, "<em>$1</em>");
+    return escaped.replace(/«([^»]+)»/g, '<span class="dialogue">«$1»</span>');
   }
 
   function fitText() {
@@ -59,6 +60,8 @@
 
   function showError(message) {
     els.title.textContent = "Oups…";
+    els.slide.classList.remove("home");
+    els.homeActions.hidden = true;
     els.text.innerHTML = '<p class="error">' + escapeHtml(message) + "</p>";
     els.choices.innerHTML = "";
     els.image.removeAttribute("src");
@@ -76,10 +79,14 @@
 
     state.current = nodeId;
 
+    var isHome = nodeId === "start";
+    els.slide.classList.toggle("home", isHome);
+    els.homeActions.hidden = !isHome;
+
     var img = safeImage(node.image);
     if (img) {
       els.image.src = img;
-      els.image.alt = "Illustration — " + node.title;
+      els.image.alt = isHome ? "Illustration de la soirée" : "Illustration de la scène";
       els.image.style.visibility = "visible";
     } else {
       els.image.removeAttribute("src");
@@ -94,11 +101,15 @@
     els.text.scrollTop = 0;
 
     els.choices.innerHTML = "";
-    (node.choices || []).forEach(function (choice) {
-      if (!choice || !choice.next) return;
+    if (isHome) return finishRender();
+    var choices = (node.choices || []).filter(function (choice) {
+      return choice && choice.next;
+    });
+    var singleNext = !node.ending && choices.length === 1;
+    choices.forEach(function (choice) {
       var btn = document.createElement("button");
       btn.type = "button";
-      btn.className = "btn btn-choice";
+      btn.className = "btn " + (singleNext ? "btn-next" : "btn-choice");
       btn.textContent = choice.label || choice.next;
       btn.addEventListener("click", function () {
         state.history.push(choice.next);
@@ -108,6 +119,10 @@
       els.choices.appendChild(btn);
     });
 
+    finishRender();
+  }
+
+  function finishRender() {
     els.back.disabled = state.history.length <= 1;
     els.breadcrumb.textContent = "Chapitre " + state.history.length;
 
@@ -133,6 +148,14 @@
   els.restart.addEventListener("click", function () {
     state.history = ["start"];
     render("start");
+  });
+
+  els.start.addEventListener("click", function () {
+    var first = STORY.start.choices && STORY.start.choices[0];
+    if (first && first.next) {
+      state.history.push(first.next);
+      render(first.next);
+    }
   });
 
   document.addEventListener("keydown", function (e) {
