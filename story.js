@@ -2,7 +2,7 @@ const STORY = {
   start: {
     id: "start",
     title: "Une soirée d'Halloween spéciale",
-    image: "assets/img/slide-00-title.jpg",
+    image: "assets/img/slide-00-intro.jpg",
     text: `Nous sommes le 31 octobre. Ce soir, vous êtes invité·e à une grande soirée d'Halloween chez des amis.
 
 Au programme : déguisements plus ou moins réussis, musique à fond, cocktails étranges et quelques bonbons.
