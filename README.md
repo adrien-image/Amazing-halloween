@@ -1,4 +1,4 @@
-# 🎃 Une soirée d'Halloween spéciale — une histoire interactive d'Halloween
+# 🎃 Une soirée d'Halloween presque parfaite ? — une histoire interactive d'Halloween
 
 Site web interactif basé sur une histoire à choix multiples. Chaque slide est illustrée par une image générée spécialement pour le texte associé.
 
@@ -10,14 +10,14 @@ Le site est déployé via **GitHub Pages** : https://adrien-image.github.io/Amaz
 
 L'histoire propose plusieurs embranchements :
 
-- **Choix A** (parler au vieil homme) → A.1 (fuir) ou A.2 (le marché)
+- **Choix A** (parler au vieil homme) → A.1 (souffler son haleine à l'ail) ou A.2 (le pacte)
   - A.1 → A.1.1 (la fausse alerte téléphone) ou A.1.2 (boire le café)
-  - A.2 → A.2.1 (omelette au sang) ou A.2.2 (trace d'ail au couteau)
-- **Choix B** (poser le verre discrètement) → B.1 (montrer le cadre) ou B.2 (ouvrir la porte)
-  - B.1 → fin (le reflet manquant)
+  - A.2 → A.2.1 (goutte de sang dans l'omelette) ou A.2.2 (trace d'ail au couteau)
+- **Choix B** (poser le verre discrètement, le cadre tombe) → B.1 (montrer le cadre) ou B.2 (chercher à ouvrir la porte)
+  - B.1 → B.1.1 (parler de son grand amour, l'alliance) ou B.1.2 (la partie d'échecs)
   - B.2 → B.2.1 (lettre des USA) ou B.2.2 (lettre du notaire, qui mène aussi à la fin du reflet manquant)
 
-Soit **6 fins différentes**.
+Soit **8 fins différentes**.
 
 ## 🛠 Technique
 
@@ -27,7 +27,7 @@ Site statique (HTML/CSS/JS vanilla, aucune dépendance) :
 - `style.css` — thème Halloween (brume, citrouille, ambiance gothique)
 - `story.js` — arbre de l'histoire (slides, textes, choix), chargeable aussi sous Node pour les tests
 - `app.js` — moteur de navigation (historique, retour, clavier ←/→, préchargement des images, gestion d'erreurs)
-- `assets/img/` — une image générée par slide (20 slides, 20 images)
+- `assets/img/` — une image générée par slide (21 slides, 21 images)
 - `tests/` — tests de validation sans dépendance (`node tests/run_all.js` ou `npm test`)
 
 Sécurité : une Content-Security-Policy stricte est déclarée dans `index.html` (`default-src 'self'`, scripts et feuilles de style locaux uniquement, seules les polices Google Fonts sont autorisées en externe). Aucun script inline, aucun gestionnaire d'événement inline.
