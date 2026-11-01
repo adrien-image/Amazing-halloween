@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 896" width="1152" height="896">
 <!-- hall d'entree : mur, lambris, sol -->
 <rect x="0" y="0" width="1152" height="896" fill="#241a33"/>
-<path d="M46 0V762M138 0V762M230 0V762M322 0V762M414 0V762M506 0V762M598 0V762M690 0V762M782 0V762M874 0V762M966 0V762M1058 0V762M1150 0V762" stroke="#b03aeb" stroke-width="10" opacity=".07" fill="none"/>
+<path d="M46 0V762M138 0V762M230 0V762M322 0V762M414 0V762M506 0V762M598 0V762M690 0V762M782 0V762M874 0V762M966 0V762M1058 0V762M1150 0V762" stroke="#b03aeb" stroke-width="10" opacity=".07" fill="none"/><line x1="0" y1="140" x2="1152" y2="140" stroke="#3a2230" stroke-width="4" opacity=".8"/>
+<g fill="#b03aeb" opacity=".08"><path transform="translate(480 90)" d="M0 0 Q-4 -6 -9 -3 Q-11 -7 -14 -5 Q-7 -1 -5 3 Q-2 1 0 4 Q2 1 5 3 Q7 -1 14 -5 Q11 -7 9 -3 Q4 -6 0 0 Z"/><path transform="translate(820 80) scale(.85)" d="M0 0 Q-4 -6 -9 -3 Q-11 -7 -14 -5 Q-7 -1 -5 3 Q-2 1 0 4 Q2 1 5 3 Q7 -1 14 -5 Q11 -7 9 -3 Q4 -6 0 0 Z"/><path transform="translate(380 340) scale(.7)" d="M0 0 Q-4 -6 -9 -3 Q-11 -7 -14 -5 Q-7 -1 -5 3 Q-2 1 0 4 Q2 1 5 3 Q7 -1 14 -5 Q11 -7 9 -3 Q4 -6 0 0 Z"/></g>
+
 <rect x="0" y="760" width="1152" height="136" fill="#4a2c3a"/>
 <path d="M0 762 L-46 896M130 762 L84 896M260 762 L214 896M390 762 L344 896M520 762 L474 896M650 762 L604 896M780 762 L734 896M910 762 L864 896M1040 762 L994 896M1170 762 L1124 896" stroke="#3a2230" stroke-width="3" fill="none"/>
 <line x1="0" y1="761" x2="1152" y2="761" stroke="#241019" stroke-width="6" stroke-linecap="round"/>
@@ -12,7 +14,8 @@
 <circle cx="996" cy="170" r="5" fill="#d9cbb2"/><circle cx="1014" cy="188" r="3.5" fill="#d9cbb2"/>
 <g fill="#e8dcc8" opacity=".85"><circle cx="892" cy="152" r="2.5"/><circle cx="930" cy="210" r="2"/><circle cx="908" cy="300" r="2.5"/><circle cx="948" cy="360" r="2"/><circle cx="1030" cy="240" r="2.5"/><circle cx="1044" cy="330" r="2"/><circle cx="1000" cy="370" r="2.5"/><circle cx="886" cy="380" r="2"/><circle cx="960" cy="150" r="2"/><circle cx="1040" cy="150" r="2.5"/></g>
 <line x1="965" y1="130" x2="965" y2="400" stroke="#241019" stroke-width="5"/>
-<line x1="870" y1="265" x2="1060" y2="265" stroke="#241019" stroke-width="5"/>
+<line x1="870" y1="265" x2="1060" y2="265" stroke="#241019" stroke-width="5"/><g stroke="#e8dcc8" stroke-width="2.5" opacity=".3" stroke-linecap="round"><line x1="900" y1="170" x2="896" y2="190"/><line x1="1020" y1="230" x2="1016" y2="250"/><line x1="940" y1="330" x2="936" y2="348"/><line x1="1040" y1="360" x2="1036" y2="378"/></g><path transform="translate(950 205) scale(.8)" d="M0 0 Q-4 -6 -9 -3 Q-11 -7 -14 -5 Q-7 -1 -5 3 Q-2 1 0 4 Q2 1 5 3 Q7 -1 14 -5 Q11 -7 9 -3 Q4 -6 0 0 Z" fill="#e8dcc8" opacity=".85"/>
+
 <path d="M862 122 Q927 265 876 408 L850 408 Z" fill="#5b1e86" stroke="#241019" stroke-width="6"/>
 <path d="M1068 122 Q1003 265 1054 408 L1080 408 Z" fill="#5b1e86" stroke="#241019" stroke-width="6"/>
 </g>
@@ -30,7 +33,8 @@
 <rect x="586" y="420" width="158" height="150" rx="4" fill="none" stroke="#241019" stroke-width="5"/>
 <rect x="586" y="596" width="158" height="150" rx="4" fill="none" stroke="#241019" stroke-width="5"/>
 <circle cx="748" cy="500" r="6" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
-<rect x="540" y="748" width="250" height="16" rx="3" fill="#3c2415" stroke="#241019" stroke-width="6"/>
+<rect x="540" y="748" width="250" height="16" rx="3" fill="#3c2415" stroke="#241019" stroke-width="6"/><path d="M665 470 Q665 452 683 452 Q701 452 701 470" fill="none" stroke="#e8b64c" stroke-width="4"/><circle cx="683" cy="478" r="8" fill="none" stroke="#e8b64c" stroke-width="4"/><rect x="640" y="540" width="86" height="10" rx="3" fill="#241019"/><rect x="650" y="531" width="66" height="10" rx="2" fill="#e8dcc8" stroke="#241019" stroke-width="3"/>
+
 </g>
 <!-- pendule figee a 23 h 44 -->
 <g stroke-linejoin="round" stroke-linecap="round">
@@ -41,13 +45,15 @@
 <line x1="689" y1="150" x2="697" y2="150" stroke="#241019" stroke-width="4"/>
 <line x1="665" y1="150" x2="645" y2="152" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
 <line x1="665" y1="150" x2="663" y2="138" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
-<circle cx="665" cy="150" r="4" fill="#b3122e"/>
+<circle cx="665" cy="150" r="4" fill="#b3122e"/><path d="M665 150 L652 132 M665 150 L684 138 M665 150 L672 170" stroke="#e8dcc8" stroke-width="2" opacity=".6" fill="none" stroke-linecap="round"/>
+
 </g>
 <!-- suspension lumineuse -->
 <circle cx="500" cy="158" r="58" fill="#ffd27a" opacity=".12"/>
 <line x1="500" y1="0" x2="500" y2="112" stroke="#241019" stroke-width="6" stroke-linecap="round"/>
 <path d="M462 148 L500 108 L538 148 Z" fill="#ffd27a" stroke="#241019" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
 <ellipse cx="500" cy="150" rx="10" ry="6" fill="#ff7518" stroke="#241019" stroke-width="3"/>
+<ellipse cx="500" cy="800" rx="130" ry="24" fill="#ffd27a" opacity=".1"/>
 <!-- grand miroir du hall : reflets du vampire et de Mme Morticia, PAS celui d'Henri -->
 <g stroke-linejoin="round" stroke-linecap="round">
 <rect x="170" y="110" width="240" height="460" rx="10" fill="#6b4226" stroke="#241019" stroke-width="8"/>
@@ -70,6 +76,7 @@
 <path d="M28 -122 L44 -156 L8 -134 Z" fill="#b03aeb" opacity=".3"/>
 <circle cx="0" cy="-142" r="20" fill="#b03aeb" opacity=".3"/>
 </g>
+<circle cx="290" cy="100" r="8" fill="#e8b64c" stroke="#241019" stroke-width="4"/><path d="M300 122 L316 200 L298 260 M316 200 L350 230" stroke="#e8dcc8" stroke-width="2.5" opacity=".4" fill="none" stroke-linecap="round"/>
 </g>
 <!-- escalier a gauche -->
 <g stroke-linejoin="round" stroke-linecap="round">
@@ -80,6 +87,7 @@
 <rect x="120" y="612" width="106.7" height="30" rx="2" fill="#3c2415" stroke="#241019" stroke-width="5"/>
 <rect x="120" y="582" width="53.3" height="30" rx="2" fill="#6b4226" stroke="#241019" stroke-width="5"/>
 </g>
+<g stroke-linejoin="round" stroke-linecap="round"><path d="M80 470 L80 500 L96 500" fill="none" stroke="#241019" stroke-width="5"/><rect x="88" y="500" width="16" height="34" rx="3" fill="#ffd27a" stroke="#241019" stroke-width="4"/><path d="M96 500 Q91 490 96 482 Q101 490 96 500 Z" fill="#ff7518" stroke="#241019" stroke-width="3"/></g><circle cx="96" cy="490" r="20" fill="#ffd27a" opacity=".14"/><g fill="#ffd27a" opacity=".3"><circle cx="860" cy="480" r="2.5"/><circle cx="930" cy="560" r="2.5"/><circle cx="1000" cy="640" r="2.5"/><circle cx="820" cy="690" r="2.5"/></g>
 <!-- penderie a droite -->
 <g stroke-linejoin="round" stroke-linecap="round">
 <rect x="980" y="602" width="96" height="160" rx="4" fill="#6b4226" stroke="#241019" stroke-width="7"/>
@@ -87,8 +95,10 @@
 <rect x="990" y="682" width="76" height="57.6" rx="4" fill="none" stroke="#241019" stroke-width="5"/>
 <circle cx="1060" cy="682" r="5" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
 </g>
+<ellipse cx="1028" cy="600" rx="20" ry="7" fill="#3c2415" stroke="#241019" stroke-width="4"/><circle cx="1022" cy="591" r="5" fill="none" stroke="#e8b64c" stroke-width="3"/><line x1="1022" y1="596" x2="1022" y2="606" stroke="#e8b64c" stroke-width="3"/><path d="M1022 606 L1016 606 M1022 606 L1014 602" stroke="#e8b64c" stroke-width="2.5" fill="none"/>
 <!-- tapis + paillasson -->
 <ellipse cx="576" cy="830" rx="310" ry="48" fill="#5b1e86" stroke="#241019" stroke-width="6" stroke-linejoin="round" opacity=".75"/>
+<ellipse cx="576" cy="830" rx="282" ry="40" fill="none" stroke="#b03aeb" stroke-width="4" opacity=".45"/>
 <rect x="600" y="792" width="170" height="26" rx="8" fill="#4a1870" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
 <!-- Mme Morticia souriante, manteau a la main -->
 <g transform="translate(255 806) scale(1.04)" stroke-linejoin="round" stroke-linecap="round">
@@ -108,7 +118,7 @@
 <circle cx="5.9" cy="-149.8" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/><circle cx="11.1" cy="-152.3" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/><circle cx="13" cy="-156" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/><circle cx="11.1" cy="-159.7" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/><circle cx="5.9" cy="-162.2" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/>
 <circle cx="-9" cy="-184" r="3.2" fill="#241019"/><circle cx="9" cy="-184" r="3.2" fill="#241019"/>
 <path d="M-9 -166 Q0 -158 9 -166" fill="none" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
-</g>
+<g transform="translate(-64 -84)"><path d="M0 -14 Q0 -26 12 -26 Q24 -26 24 -14" fill="none" stroke="#241019" stroke-width="4"/><rect x="0" y="-14" width="24" height="30" rx="6" fill="#1a1420" stroke="#241019" stroke-width="4"/></g></g>
 <!-- vampire, inquiet devant le miroir -->
 <g transform="translate(410 806) scale(1.06)" stroke-linejoin="round" stroke-linecap="round">
 <ellipse cx="0" cy="4" rx="56" ry="11" fill="#000000" opacity=".28"/>
@@ -132,7 +142,7 @@
 <ellipse cx="0" cy="-174" rx="5" ry="6.5" fill="#241019"/>
 <path d="M-5 -179 L-2 -179 L-3.5 -172 Z" fill="#ffffff" stroke="#241019" stroke-width="2"/>
 <path d="M5 -179 L2 -179 L3.5 -172 Z" fill="#ffffff" stroke="#241019" stroke-width="2"/>
-</g>
+<circle cx="0" cy="-152" r="5.5" fill="#b03aeb" stroke="#241019" stroke-width="3"/></g>
 <!-- Henri present dans le hall, mais ABSENT du reflet -->
 <g transform="translate(905 802) scale(1.0)" stroke-linejoin="round" stroke-linecap="round">
 <ellipse cx="0" cy="4" rx="52" ry="11" fill="#000000" opacity=".28"/>
@@ -156,7 +166,7 @@
 <line x1="-1" y1="-174" x2="1" y2="-174" stroke="#241019" stroke-width="3"/>
 <path d="M-11 -158 Q0 -151 11 -158" fill="none" stroke="#f6efe4" stroke-width="6" stroke-linecap="round"/>
 <path d="M-8 -159 Q0 -153 8 -159" fill="none" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
-</g>
+<path d="M-22 -146 L-12 -146 L-17 -136 Z" fill="#f6efe4" stroke="#241019" stroke-width="3"/></g>
 <!-- cadre doré + vignette -->
 <rect x="26" y="26" width="1100" height="844" rx="26" fill="none" stroke="#ffd27a" stroke-width="6" opacity=".55"/>
 <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
