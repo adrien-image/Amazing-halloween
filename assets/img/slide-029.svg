@@ -82,7 +82,6 @@
 <circle cx="-64" cy="-96" r="7" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
 <path d="M40 -142 L58 -104" fill="none" stroke="#1a1420" stroke-width="11" stroke-linecap="round"/>
 <circle cx="60" cy="-100" r="7" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
-<g transform="translate(66 -104) scale(.55)"><path d="M-8 -34 q6 -10 0 -20" fill="none" stroke="#d9cbb2" stroke-width="4" stroke-linecap="round"/><path d="M-20 -14 L20 -14 L15 14 L-15 14 Z" fill="#f6efe4" stroke="#241019" stroke-width="6" stroke-linejoin="round"/><path d="M20 -8 Q34 -6 30 4 Q26 12 16 8" fill="none" stroke="#241019" stroke-width="6" stroke-linecap="round"/><ellipse cx="0" cy="-14" rx="20" ry="6" fill="#6b4226" stroke="#241019" stroke-width="5"/></g>
 <circle cx="0" cy="-188" r="25" fill="#f2e8dc" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
 <path d="M-25 -192 Q-27 -220 0 -220 Q27 -220 25 -192 Q17 -206 0 -204 Q-17 -206 -25 -192 Z" fill="#14101c" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
 <path d="M-7 -205 L0 -194 L7 -205 Q0 -209 -7 -205 Z" fill="#14101c" stroke="none"/>
@@ -131,7 +130,6 @@
 <circle cx="-52" cy="-92" r="6.5" fill="#e8d8c8" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
 <path d="M34 -142 L56 -168" fill="none" stroke="#7a4a2c" stroke-width="11" stroke-linecap="round"/>
 <circle cx="58" cy="-172" r="6.5" fill="#e8d8c8" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
-<g transform="translate(64 -176) scale(.5)"><path d="M-20 -14 L20 -14 L15 14 L-15 14 Z" fill="#f6efe4" stroke="#241019" stroke-width="6" stroke-linejoin="round"/><path d="M20 -8 Q34 -6 30 4 Q26 12 16 8" fill="none" stroke="#241019" stroke-width="6" stroke-linecap="round"/><ellipse cx="0" cy="-14" rx="20" ry="6" fill="#6b4226" stroke="#241019" stroke-width="5"/></g>
 <rect x="-34" y="-152" width="68" height="92" rx="16" fill="#7a4a2c" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
 <path d="M-12 -150 L0 -120 L12 -150 Z" fill="#f6efe4" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
 <circle cx="0" cy="-136" r="2.5" fill="#e8b64c"/>
