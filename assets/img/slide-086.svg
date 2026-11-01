@@ -33,9 +33,11 @@
 <rect x="586" y="420" width="158" height="150" rx="4" fill="none" stroke="#241019" stroke-width="5"/>
 <rect x="586" y="596" width="158" height="150" rx="4" fill="none" stroke="#241019" stroke-width="5"/>
 <circle cx="748" cy="500" r="6" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
-<rect x="540" y="748" width="250" height="16" rx="3" fill="#3c2415" stroke="#241019" stroke-width="6"/><path d="M665 470 Q665 452 683 452 Q701 452 701 470" fill="none" stroke="#e8b64c" stroke-width="4"/><circle cx="683" cy="478" r="8" fill="none" stroke="#e8b64c" stroke-width="4"/><rect x="640" y="540" width="86" height="10" rx="3" fill="#241019"/><rect x="650" y="531" width="66" height="10" rx="2" fill="#e8dcc8" stroke="#241019" stroke-width="3"/>
+<rect x="540" y="748" width="250" height="16" rx="3" fill="#3c2415" stroke="#241019" stroke-width="6"/><path d="M665 470 Q665 452 683 452 Q701 452 701 470" fill="none" stroke="#e8b64c" stroke-width="4"/><circle cx="683" cy="478" r="8" fill="none" stroke="#e8b64c" stroke-width="4"/><rect x="640" y="540" width="86" height="10" rx="3" fill="#241019"/><rect x="650" y="531" width="66" height="10" rx="2" fill="#e8dcc8" stroke="#241019" stroke-width="3"/><g fill="none" stroke="#e8b64c" stroke-width="3"><circle cx="590" cy="505" r="3"/><circle cx="604" cy="512" r="3"/><circle cx="618" cy="519" r="3"/><circle cx="632" cy="526" r="3"/></g>
 
 </g>
+<polygon points="552,762 778,762 740,806 500,806" fill="#0b0710" opacity=".25"/>
+<ellipse cx="692" cy="182" rx="40" ry="40" fill="#0b0710" opacity=".2"/>
 <!-- pendule figee a 23 h 44 -->
 <g stroke-linejoin="round" stroke-linecap="round">
 <circle cx="665" cy="150" r="38" fill="#e8dcc8" stroke="#241019" stroke-width="7"/>
@@ -45,7 +47,7 @@
 <line x1="689" y1="150" x2="697" y2="150" stroke="#241019" stroke-width="4"/>
 <line x1="665" y1="150" x2="645" y2="152" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
 <line x1="665" y1="150" x2="663" y2="138" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
-<circle cx="665" cy="150" r="4" fill="#b3122e"/><path d="M665 150 L652 132 M665 150 L684 138 M665 150 L672 170" stroke="#e8dcc8" stroke-width="2" opacity=".6" fill="none" stroke-linecap="round"/>
+<circle cx="665" cy="150" r="4" fill="#b3122e"/><path d="M665 150 L652 132 M665 150 L684 138 M665 150 L672 170" stroke="#e8dcc8" stroke-width="2" opacity=".6" fill="none" stroke-linecap="round"/><line x1="665" y1="188" x2="665" y2="230" stroke="#241019" stroke-width="4" stroke-linecap="round"/><circle cx="665" cy="238" r="10" fill="#e8b64c" stroke="#241019" stroke-width="4"/>
 
 </g>
 <!-- suspension lumineuse -->
@@ -76,7 +78,7 @@
 <path d="M28 -122 L44 -156 L8 -134 Z" fill="#b03aeb" opacity=".3"/>
 <circle cx="0" cy="-142" r="20" fill="#b03aeb" opacity=".3"/>
 </g>
-<circle cx="290" cy="100" r="8" fill="#e8b64c" stroke="#241019" stroke-width="4"/><path d="M300 122 L316 200 L298 260 M316 200 L350 230" stroke="#e8dcc8" stroke-width="2.5" opacity=".4" fill="none" stroke-linecap="round"/>
+<circle cx="290" cy="100" r="8" fill="#e8b64c" stroke="#241019" stroke-width="4"/><path d="M300 122 L316 200 L298 260 M316 200 L350 230" stroke="#e8dcc8" stroke-width="2.5" opacity=".4" fill="none" stroke-linecap="round"/><g stroke="#3a2a44" stroke-width="4" fill="none"><line x1="182" y1="122" x2="330" y2="300"/><line x1="398" y1="122" x2="330" y2="300"/><line x1="182" y1="558" x2="330" y2="300"/><line x1="398" y1="558" x2="330" y2="300"/></g><polygon points="318,270 342,270 352,330 308,330" fill="#ffd27a" opacity=".15"/>
 </g>
 <!-- escalier a gauche -->
 <g stroke-linejoin="round" stroke-linecap="round">
@@ -88,6 +90,7 @@
 <rect x="120" y="582" width="53.3" height="30" rx="2" fill="#6b4226" stroke="#241019" stroke-width="5"/>
 </g>
 <g stroke-linejoin="round" stroke-linecap="round"><path d="M80 470 L80 500 L96 500" fill="none" stroke="#241019" stroke-width="5"/><rect x="88" y="500" width="16" height="34" rx="3" fill="#ffd27a" stroke="#241019" stroke-width="4"/><path d="M96 500 Q91 490 96 482 Q101 490 96 500 Z" fill="#ff7518" stroke="#241019" stroke-width="3"/></g><circle cx="96" cy="490" r="20" fill="#ffd27a" opacity=".14"/><g fill="#ffd27a" opacity=".3"><circle cx="860" cy="480" r="2.5"/><circle cx="930" cy="560" r="2.5"/><circle cx="1000" cy="640" r="2.5"/><circle cx="820" cy="690" r="2.5"/></g>
+<polygon points="150,582 205,582 440,762 385,762" fill="#5b1e86" opacity=".55"/><path d="M110 560 L450 740" stroke="#6b4226" stroke-width="9" stroke-linecap="round" fill="none"/><g stroke="#3c2415" stroke-width="5" stroke-linecap="round"><line x1="170" y1="588" x2="170" y2="640"/><line x1="250" y1="628" x2="250" y2="680"/><line x1="330" y1="668" x2="330" y2="720"/></g>
 <!-- penderie a droite -->
 <g stroke-linejoin="round" stroke-linecap="round">
 <rect x="980" y="602" width="96" height="160" rx="4" fill="#6b4226" stroke="#241019" stroke-width="7"/>
@@ -96,6 +99,7 @@
 <circle cx="1060" cy="682" r="5" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
 </g>
 <ellipse cx="1028" cy="600" rx="20" ry="7" fill="#3c2415" stroke="#241019" stroke-width="4"/><circle cx="1022" cy="591" r="5" fill="none" stroke="#e8b64c" stroke-width="3"/><line x1="1022" y1="596" x2="1022" y2="606" stroke="#e8b64c" stroke-width="3"/><path d="M1022 606 L1016 606 M1022 606 L1014 602" stroke="#e8b64c" stroke-width="2.5" fill="none"/>
+<polygon points="130,762 84,896 150,896 196,762" fill="#3a2230" opacity=".6"/><polygon points="650,762 604,896 670,896 716,762" fill="#3a2230" opacity=".6"/><polygon points="1040,762 994,896 1060,896 1106,762" fill="#3a2230" opacity=".6"/><polygon points="470,762 530,762 560,896 440,896" fill="#ffd27a" opacity=".06"/>
 <!-- tapis + paillasson -->
 <ellipse cx="576" cy="830" rx="310" ry="48" fill="#5b1e86" stroke="#241019" stroke-width="6" stroke-linejoin="round" opacity=".75"/>
 <ellipse cx="576" cy="830" rx="282" ry="40" fill="none" stroke="#b03aeb" stroke-width="4" opacity=".45"/>
@@ -117,7 +121,7 @@
 <circle cx="0" cy="-206" r="10" fill="#f6efe4" stroke="#241019" stroke-width="5"/>
 <circle cx="5.9" cy="-149.8" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/><circle cx="11.1" cy="-152.3" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/><circle cx="13" cy="-156" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/><circle cx="11.1" cy="-159.7" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/><circle cx="5.9" cy="-162.2" r="3" fill="#f6efe4" stroke="#241019" stroke-width="1.5"/>
 <circle cx="-9" cy="-184" r="3.2" fill="#241019"/><circle cx="9" cy="-184" r="3.2" fill="#241019"/>
-<path d="M-9 -166 Q0 -158 9 -166" fill="none" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
+<path d="M-9 -166 Q0 -158 9 -166" fill="none" stroke="#241019" stroke-width="4" stroke-linecap="round"/><circle cx="-14" cy="-168" r="4" fill="#b3122e" opacity=".25"/><circle cx="14" cy="-168" r="4" fill="#b3122e" opacity=".25"/><circle cx="-21" cy="-170" r="3" fill="#f6efe4" stroke="#241019" stroke-width="2"/><circle cx="21" cy="-170" r="3" fill="#f6efe4" stroke="#241019" stroke-width="2"/>
 <g transform="translate(-64 -84)"><path d="M0 -14 Q0 -26 12 -26 Q24 -26 24 -14" fill="none" stroke="#241019" stroke-width="4"/><rect x="0" y="-14" width="24" height="30" rx="6" fill="#1a1420" stroke="#241019" stroke-width="4"/></g></g>
 <!-- vampire, inquiet devant le miroir -->
 <g transform="translate(410 806) scale(1.06)" stroke-linejoin="round" stroke-linecap="round">
@@ -142,7 +146,7 @@
 <ellipse cx="0" cy="-174" rx="5" ry="6.5" fill="#241019"/>
 <path d="M-5 -179 L-2 -179 L-3.5 -172 Z" fill="#ffffff" stroke="#241019" stroke-width="2"/>
 <path d="M5 -179 L2 -179 L3.5 -172 Z" fill="#ffffff" stroke="#241019" stroke-width="2"/>
-<circle cx="0" cy="-152" r="5.5" fill="#b03aeb" stroke="#241019" stroke-width="3"/></g>
+<path d="M18 -206 Q22 -199 18 -194 Q14 -199 18 -206 Z" fill="#e8dcc8" opacity=".85"/><ellipse cx="-10" cy="-188" rx="4" ry="2.5" fill="#d9cbb2"/><ellipse cx="10" cy="-188" rx="4" ry="2.5" fill="#d9cbb2"/><circle cx="0" cy="-152" r="5.5" fill="#b03aeb" stroke="#241019" stroke-width="3"/></g>
 <!-- Henri present dans le hall, mais ABSENT du reflet -->
 <g transform="translate(905 802) scale(1.0)" stroke-linejoin="round" stroke-linecap="round">
 <ellipse cx="0" cy="4" rx="52" ry="11" fill="#000000" opacity=".28"/>
