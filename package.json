@@ -1,13 +1,9 @@
 {
   "name": "amazing-halloween",
   "private": true,
-  "version": "1.0.0",
-  "description": "🎃 Une soirée d'Halloween presque parfaite ? — histoire interactive statique (HTML/CSS/JS vanilla, aucune dépendance).",
+  "version": "2.0.0",
+  "description": "🎃 Une soirée d'Halloween presque parfaite ? — histoire interactive statique (HTML/CSS/JS vanilla, aucune dépendance). Version 2 : 87 slides générées depuis le Markdown, images SVG cartoon cell-shaded.",
   "scripts": {
-    "test": "node tests/run_all.js",
-    "pdf": "node scripts/generate-pdf.mjs"
-  },
-  "devDependencies": {
-    "pdf-lib": "^1.17.1"
+    "test": "node tests/run_all.js"
   }
 }
