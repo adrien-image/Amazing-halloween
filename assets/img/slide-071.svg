@@ -20,6 +20,7 @@
   <path d="M0 0 Q4 -8 9 -2 Q12 -7 15 -2 Q20 -8 24 0 Q19 2 15 7 Q12 3 9 6 Q5 2 0 0 Z" transform="translate(830 260) scale(.8)" fill="#0b0710"/>
   <path d="M0 0 Q4 -8 9 -2 Q12 -7 15 -2 Q20 -8 24 0 Q19 2 15 7 Q12 3 9 6 Q5 2 0 0 Z" transform="translate(1060 330) scale(.65)" fill="#0b0710"/>
   <ellipse cx="560" cy="230" rx="150" ry="22" fill="#0b0710" opacity=".45"/>
+  <g><ellipse cx="300" cy="480" rx="7" ry="4" fill="#ff7518" transform="rotate(30 300 480)"/><ellipse cx="362" cy="540" rx="6" ry="3.5" fill="#b3122e" transform="rotate(-20 362 540)"/><ellipse cx="880" cy="460" rx="7" ry="4" fill="#ff7518" transform="rotate(45 880 460)"/><ellipse cx="1010" cy="520" rx="6" ry="3.5" fill="#b3122e" transform="rotate(15 1010 520)"/><path d="M0 0 Q4 -8 9 -2 Q12 -7 15 -2 Q20 -8 24 0 Q19 2 15 7 Q12 3 9 6 Q5 2 0 0 Z" transform="translate(900 175) scale(.7)" fill="#0b0710"/><path d="M0 0 Q4 -8 9 -2 Q12 -7 15 -2 Q20 -8 24 0 Q19 2 15 7 Q12 3 9 6 Q5 2 0 0 Z" transform="translate(1030 215) scale(.55)" fill="#0b0710"/></g>
   <!-- maison voisine et arbre mort -->
   <rect x="0" y="566" width="210" height="330" fill="#120a18"/>
   <path d="M-12 566 L105 486 L222 566 Z" fill="#0e0713"/>
@@ -64,7 +65,7 @@
   <rect x="962" y="378" width="52" height="64" rx="4" fill="#ffd27a" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
   <line x1="988" y1="378" x2="988" y2="442" stroke="#241019" stroke-width="4"/>
   <line x1="962" y1="410" x2="1014" y2="410" stroke="#241019" stroke-width="4"/>
-  <circle cx="988" cy="398" r="9" fill="#0b0710" stroke="#241019" stroke-width="3"/>
+  <circle cx="988" cy="398" r="10" fill="#0b0710" stroke="#241019" stroke-width="3"/><circle cx="984" cy="396" r="1.6" fill="#ffd27a"/><circle cx="992" cy="396" r="1.6" fill="#ffd27a"/><path d="M979 391 Q978 402 985 409" fill="none" stroke="#b03aeb" stroke-width="3" stroke-linecap="round"/>
   <path d="M970 442 L970 422 Q988 408 1006 422 L1006 442 Z" fill="#0b0710" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
   <!-- détails+ : rideau de la fenêtre à silhouette -->
   <path d="M1002 378 L1014 378 L1014 442 L998 442 Q1006 410 1002 378 Z" fill="#5b1e86" opacity=".85" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
@@ -75,6 +76,7 @@
   <rect x="736" y="600" width="64" height="84" rx="4" fill="#1c2b4a" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
   <line x1="768" y1="600" x2="768" y2="684" stroke="#241019" stroke-width="4"/>
   <line x1="736" y1="642" x2="800" y2="642" stroke="#241019" stroke-width="4"/>
+  <rect x="940" y="600" width="64" height="84" rx="4" fill="#ffd27a" stroke="#241019" stroke-width="6" stroke-linejoin="round"/><line x1="972" y1="600" x2="972" y2="684" stroke="#241019" stroke-width="4"/><line x1="940" y1="642" x2="1004" y2="642" stroke="#241019" stroke-width="4"/><path d="M940 684 L1004 684 L1064 762 L896 762 Z" fill="#ffd27a" opacity=".1"/>
   <!-- porte, guirlande de fête et citrouilles -->
   <rect x="850" y="666" width="58" height="96" rx="4" fill="#6b4226" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
   <rect x="858" y="676" width="42" height="34" rx="3" fill="none" stroke="#241019" stroke-width="4"/>
@@ -86,7 +88,7 @@
   <circle cx="855" cy="643" r="5.5" fill="#ff7518" stroke="#241019" stroke-width="3.5"/>
   <circle cx="879" cy="640" r="5.5" fill="#ffd27a" stroke="#241019" stroke-width="3.5"/>
   <circle cx="903" cy="643" r="5.5" fill="#ff7518" stroke="#241019" stroke-width="3.5"/>
-  <circle cx="928" cy="652" r="5.5" fill="#ffd27a" stroke="#241019" stroke-width="3.5"/>
+  <circle cx="928" cy="652" r="5.5" fill="#ffd27a" stroke="#241019" stroke-width="3.5"/><circle cx="842" cy="647" r="5.5" fill="#b3122e" stroke="#241019" stroke-width="3.5"/><circle cx="916" cy="647" r="5.5" fill="#b3122e" stroke="#241019" stroke-width="3.5"/>
   <g>
     <ellipse cx="770" cy="748" rx="24" ry="18" fill="#ff7518" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
     <path d="M758 734 Q752 748 758 762 M782 734 Q788 748 782 762" fill="none" stroke="#241019" stroke-width="3" opacity=".35"/>
@@ -106,6 +108,7 @@
   <path d="M879 679 L873 671 L879 675 L885 671 Z" fill="#b03aeb" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
   <rect x="712" y="596" width="18" height="92" rx="3" fill="#241a2e" stroke="#241019" stroke-width="5"/>
   <rect x="806" y="596" width="18" height="92" rx="3" fill="#241a2e" stroke="#241019" stroke-width="5"/>
+  <ellipse cx="890" cy="852" rx="60" ry="10" fill="#e8dcc8" opacity=".12"/><path d="M850 852 Q890 846 930 852 M862 858 Q890 854 918 858" stroke="#e8dcc8" stroke-width="2.5" opacity=".3" fill="none" stroke-linecap="round"/><rect x="842" y="758" width="76" height="10" rx="3" fill="#b3122e" stroke="#241019" stroke-width="4"/>
   <!-- réverbère -->
   <ellipse cx="250" cy="806" rx="95" ry="16" fill="#ffd27a" opacity=".12"/>
   <circle cx="250" cy="544" r="100" fill="#ffd27a" opacity=".06"/>
@@ -150,9 +153,9 @@
     <path d="M-15 -156 L0 -118 L15 -156 Q0 -163 -15 -156 Z" fill="#f6efe4" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <circle cx="0" cy="-192" r="25" fill="#f2e8dc" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
     <path d="M-25 -196 Q-27 -224 0 -224 Q27 -224 25 -196 Q17 -210 0 -208 Q-17 -210 -25 -196 Z" fill="#14101c" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
-    <path d="M-7 -209 L0 -198 L7 -209 Z" fill="#14101c"/>
-    <circle cx="-18" cy="-190" r="3.4" fill="#241019"/>
-    <circle cx="0" cy="-190" r="3.4" fill="#241019"/>
+    <path d="M-7 -209 L0 -198 L7 -209 Z" fill="#14101c"/><path d="M-15 -198 L-5 -201 M5 -201 L15 -198" fill="none" stroke="#241019" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="-9" cy="-190" r="6" fill="#ffffff" stroke="#241019" stroke-width="3"/><circle cx="-12" cy="-190" r="2.6" fill="#241019"/>
+    <circle cx="9" cy="-190" r="6" fill="#ffffff" stroke="#241019" stroke-width="3"/><circle cx="6" cy="-190" r="2.6" fill="#241019"/>
     <path d="M-9 -172 Q-4.5 -176 0 -172 Q4.5 -168 9 -172" fill="none" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
     <path d="M-6 -176 L-2 -176 L-4 -169 Z" fill="#ffffff" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>
     <path d="M2 -176 L6 -176 L4 -169 Z" fill="#ffffff" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>
