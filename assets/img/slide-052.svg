@@ -86,8 +86,10 @@
 <ellipse cx="28" cy="-3" rx="13" ry="6.5" fill="#14101c" stroke="#241019" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M-32 -146 L-54 -118" fill="none" stroke="#1a1420" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="-58" cy="-114" r="7" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
-<path d="M32 -146 L62 -84" fill="none" stroke="#1a1420" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="66" cy="-80" r="7" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M32 -146 L50 -88" fill="none" stroke="#1a1420" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="54" cy="-86" r="7" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="60" cy="-92" r="3" fill="#f2e8dc" stroke="#241019" stroke-width="2.5"/>
+<circle cx="62" cy="-82" r="3" fill="#f2e8dc" stroke="#241019" stroke-width="2.5"/>
 <path d="M-44 -158 Q-52 -80 -60 -8 Q-60 2 -48 2 L48 2 Q60 2 60 -8 Q52 -80 44 -158 Q0 -172 -44 -158 Z" fill="#1a1420" stroke="#241019" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M-32 -162 L-48 -200 L-10 -178 Z" fill="#120d18" stroke="#241019" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M32 -162 L48 -200 L10 -178 Z" fill="#120d18" stroke="#241019" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
@@ -119,6 +121,20 @@
 <polygon points="980,762 1076,762 1010,896 910,896" fill="#ffd27a" opacity=".08"/>
 <g transform="translate(700 798) scale(1.05 1.05)"><path d="M-26 -150 Q-32 -80 -38 -16 M26 -150 Q32 -80 38 -16" stroke="#5b1e86" stroke-width="5" fill="none" opacity=".8" stroke-linecap="round"/></g>
 <g transform="rotate(-10 636 852)"><rect x="604" y="832" width="64" height="40" rx="3" fill="#e8dcc8" stroke="#241019" stroke-width="5" stroke-linejoin="round"/><path d="M604 832 L636 856 L668 832" fill="none" stroke="#241019" stroke-width="4" stroke-linejoin="round"/><circle cx="636" cy="856" r="7" fill="#b3122e" stroke="#241019" stroke-width="3"/></g>
+<polygon points="1010,640 1018,664 1042,664 1022,678 1030,702 1010,688 990,702 998,678 978,664 1002,664" fill="#ff7518" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+<path d="M984 630 L968 622 M984 680 L966 680 M984 730 L968 738" stroke="#ff7518" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M770 690 L764 678 M800 684 L800 670 M826 694 L834 684" stroke="#ffd27a" stroke-width="4" stroke-linecap="round" fill="none"/>
+<path d="M770 730 L800 780 M795 722 L825 772" stroke="#ffffff" stroke-width="5" opacity=".5" stroke-linecap="round" fill="none"/>
+<circle cx="637" cy="648" r="30" fill="#ffd27a" opacity=".12"/>
+<rect x="630" y="660" width="14" height="28" fill="#ffd27a" stroke="#241019" stroke-width="4"/>
+<ellipse cx="637" cy="654" rx="5" ry="9" fill="#ff7518" stroke="#241019" stroke-width="3"/>
+<ellipse cx="637" cy="657" rx="3" ry="5" fill="#ffd27a"/>
+<ellipse cx="637" cy="659" rx="1.5" ry="3" fill="#fff6d8"/>
+<g fill="#14101c" opacity=".08"><g transform="translate(230 140) scale(.6)"><path d="M0 0 Q10 -12 20 0 Q30 -12 40 0 Q30 -5 20 6 Q10 -5 0 0 Z"/></g><g transform="translate(506 150) scale(.6)"><path d="M0 0 Q10 -12 20 0 Q30 -12 40 0 Q30 -5 20 6 Q10 -5 0 0 Z"/></g><g transform="translate(782 120) scale(.6)"><path d="M0 0 Q10 -12 20 0 Q30 -12 40 0 Q30 -5 20 6 Q10 -5 0 0 Z"/></g><g transform="translate(1058 300) scale(.6)"><path d="M0 0 Q10 -12 20 0 Q30 -12 40 0 Q30 -5 20 6 Q10 -5 0 0 Z"/></g></g>
+<rect x="978" y="612" width="5" height="148" fill="#0b0710"/>
+<circle cx="974" cy="650" r="3" fill="#c9d4e8" opacity=".9"/><circle cx="974" cy="668" r="3" fill="#c9d4e8" opacity=".9"/>
+<ellipse cx="700" cy="812" rx="120" ry="24" fill="none" stroke="#7a2bb0" stroke-width="4" opacity=".7"/>
+<ellipse cx="700" cy="812" rx="80" ry="15" fill="none" stroke="#7a2bb0" stroke-width="4" opacity=".7"/>
 <rect x="26" y="26" width="1100" height="844" rx="26" fill="none" stroke="#ffd27a" stroke-width="6" opacity="0.55"/>
 <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity="0.32"/>
 </svg>
