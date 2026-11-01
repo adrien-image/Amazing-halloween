@@ -79,7 +79,7 @@
   </g>
   <!-- silhouette fantomatique de Mme Morticia -->
   <circle cx="860" cy="700" r="95" fill="#b03aeb" opacity=".08"/>
-  <g transform="translate(860 795)" opacity=".16">
+  <g transform="translate(860 795)" opacity=".3">
     <path d="M-30 -140 L-46 -92" fill="none" stroke="#241a2e" stroke-width="10" stroke-linecap="round"/>
     <path d="M30 -140 L46 -92" fill="none" stroke="#241a2e" stroke-width="10" stroke-linecap="round"/>
     <path d="M-30 -148 L-54 0 L54 0 L30 -148 Q0 -161 -30 -148 Z" fill="#241a2e"/>
@@ -122,7 +122,7 @@
   <!-- Minou sous la table -->
   <g transform="translate(700 852) scale(0.9)">
     <ellipse cx="0" cy="6" rx="30" ry="8" fill="#000000" opacity=".28"/>
-    <path d="M28 6 Q52 -6 44 -34" fill="none" stroke="#1a1420" stroke-width="9" stroke-linecap="round"/>
+    <path d="M28 6 Q58 -10 50 -46" fill="none" stroke="#1a1420" stroke-width="9" stroke-linecap="round"/>
     <ellipse cx="0" cy="0" rx="26" ry="30" fill="#1a1420" stroke="#241019" stroke-width="6"/>
     <circle cx="0" cy="-42" r="20" fill="#1a1420" stroke="#241019" stroke-width="6"/>
     <path d="M-16 -54 L-21 -74 L-4 -60 Z" fill="#1a1420" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
@@ -172,6 +172,36 @@
   </g>
   <circle cx="290" cy="624" r="6" fill="#b3122e" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
   <rect x="258" y="736" width="64" height="10" rx="4" fill="#120d18" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
+  <!-- APPLY FIND : expression choc vampire, lampe, table, papier peint, café, tapis, Minou -->
+  <g transform="translate(290 800) scale(1.05 1.05)">
+  <path d="M-23 -206 L-11 -213 M11 -213 L23 -206" stroke="#241019" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M-36 -222 Q-30 -212 -36 -206 Q-42 -212 -36 -222 Z" fill="#e8dcc8" stroke="#241019" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <polygon points="535,148 615,148 700,742 450,742" fill="#ffd27a" opacity="0.1"/>
+  <ellipse cx="575" cy="20" rx="4" ry="7" fill="none" stroke="#241019" stroke-width="3"/>
+  <ellipse cx="575" cy="42" rx="4" ry="7" fill="none" stroke="#241019" stroke-width="3"/>
+  <ellipse cx="575" cy="64" rx="4" ry="7" fill="none" stroke="#241019" stroke-width="3"/>
+  <g transform="rotate(-4 635 726)">
+  <rect x="548" y="712" width="174" height="30" rx="4" fill="#f6efe4" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M578 712V742M608 712V742M638 712V742M668 712V742M548 727H722" stroke="#b03aeb" stroke-width="2" opacity=".4"/>
+  </g>
+  <ellipse cx="790" cy="750" rx="26" ry="9" fill="#f6efe4" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="782" cy="747" r="2.4" fill="#d9cbb2"/><circle cx="794" cy="751" r="2" fill="#d9cbb2"/><circle cx="788" cy="745" r="1.8" fill="#ff7518"/>
+  <path d="M604 758 Q586 730 566 706" stroke="#241019" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M604 758 Q586 730 566 706" stroke="#e8dcc8" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M572 716 L560 706 M578 724 L566 716 M584 732 L572 726" stroke="#241019" stroke-width="2" stroke-linecap="round"/>
+  <path d="M96 60L136 100L96 140L56 100Z M288 60L328 100L288 140L248 100Z M480 60L520 100L480 140L440 100Z M672 60L712 100L672 140L632 100Z M864 60L904 100L864 140L824 100Z M1056 60L1096 100L1056 140L1016 100Z M96 240L136 280L96 320L56 280Z M288 240L328 280L288 320L248 280Z M480 240L520 280L480 320L440 280Z M672 240L712 280L672 320L632 280Z M864 240L904 280L864 320L824 280Z M1056 240L1096 280L1056 320L1016 280Z" fill="#b03aeb" opacity=".05"/>
+  <path d="M880 220 L872 260 L884 300 L870 340" stroke="#0b0710" stroke-width="3" fill="none" opacity=".6"/>
+  <g transform="translate(500 734) scale(1.2)">
+  <ellipse cx="0" cy="18" rx="32" ry="8" fill="#f6efe4" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="26" y1="12" x2="46" y2="22" stroke="#c9d4e8" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <circle cx="500" cy="690" r="30" fill="#ffd27a" opacity=".12"/>
+  <ellipse cx="575" cy="792" rx="230" ry="30" fill="#241a2e" stroke="#5b1e86" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="200" cy="830" r="4" fill="#3a2230"/><circle cx="950" cy="850" r="4" fill="#3a2230"/>
+  <g transform="translate(700 852) scale(0.9)">
+  <path d="M-14 -38 L-30 -42 M-14 -36 L-30 -34 M14 -38 L30 -42 M14 -36 L30 -34" stroke="#e8dcc8" stroke-width="2" stroke-linecap="round" fill="none"/>
+  </g>
   <!-- bordure et vignette -->
   <rect x="26" y="26" width="1100" height="844" rx="26" fill="none" stroke="#ffd27a" stroke-width="6" opacity=".55"/>
   <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
