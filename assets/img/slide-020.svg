@@ -173,5 +173,5 @@
 <path d="M1118 10 Q1128 44 1152 52"/>
 <path d="M1088 10 Q1104 62 1152 72"/>
 </g>
-<rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
+<circle cx="1010" cy="130" r="60" fill="#ff7518" opacity="0.18" stroke="none"/><circle cx="1010" cy="130" r="44" fill="#ff7518" stroke="#241019" stroke-width="7" stroke-linejoin="round"/><path d="M994 116 Q994 98 1010 98 Q1026 98 1026 114 Q1026 126 1010 130 L1010 142" fill="none" stroke="#241019" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1010" cy="156" r="5.5" fill="#241019" stroke="none"/><rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
 </svg>

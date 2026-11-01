@@ -129,5 +129,9 @@
 <ellipse cx="300" cy="832" rx="150" ry="24" fill="#b03aeb" opacity=".12"/>
 <ellipse cx="850" cy="832" rx="150" ry="24" fill="#ff7518" opacity=".12"/>
 <ellipse cx="876" cy="664" rx="16" ry="28" fill="#0b0710" opacity=".18"/>
+<circle cx="1035" cy="105" r="66" fill="#ff7518" opacity=".16" stroke="none"/>
+<circle cx="1035" cy="105" r="42" fill="#ff7518" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+<path d="M1018 90 Q1018 74 1035 74 Q1052 74 1052 90 Q1052 103 1035 109 L1035 120" fill="none" stroke="#241019" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1035" cy="138" r="6" fill="#241019" stroke="none"/>
 <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
 </svg>

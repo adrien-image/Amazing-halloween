@@ -217,5 +217,12 @@
   <path d="M820 20 L830 44 L818 60 L832 84" fill="none" stroke="#241019" stroke-width="2" opacity=".4" stroke-linecap="round"/>
   <!-- bordure et vignette -->
   <rect x="26" y="26" width="1100" height="844" rx="26" fill="none" stroke="#ffd27a" stroke-width="6" opacity=".55"/>
-  <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
+    <!-- badge « ? » de page à choix -->
+  <g transform="translate(711 200)">
+    <circle cx="0" cy="0" r="58" fill="#ff7518" opacity=".18" stroke="none"/>
+    <circle cx="0" cy="0" r="42" fill="#ff7518" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M0 -22 Q0 -36 14 -36 Q28 -36 28 -22 Q28 -10 14 -6 Q0 -2 0 12" fill="none" stroke="#241019" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="0" cy="26" r="5.5" fill="#241019" stroke="none"/>
+  </g>
+<rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
 </svg>
