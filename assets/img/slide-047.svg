@@ -84,6 +84,7 @@
 <circle cx="0" cy="-56" r="15" fill="#1a1420" stroke="#241019" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
 <circle cx="-6" cy="-58" r="2.6" fill="#ffd27a"/><circle cx="6" cy="-58" r="2.6" fill="#ffd27a"/>
 <circle cx="0" cy="-36" r="5" fill="#e8b64c" stroke="#241019" stroke-width="2.5"/>
+<path d="M-10 -52L-24 -55M-10 -49L-24 -48M10 -52L24 -55M10 -49L24 -48" stroke="#241019" stroke-width="1.8" opacity=".6" stroke-linecap="round"/>
 </g>
 <g stroke="#b03aeb" stroke-width="5" stroke-linecap="round" opacity="0.5">
 <line x1="440" y1="672" x2="500" y2="682"/>
@@ -115,7 +116,18 @@
 <ellipse cx="1" cy="-174" rx="7" ry="8" fill="#b3122e" stroke="#241019" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M-5 -179 L-1 -179 L-3 -171 Z" fill="#ffffff" stroke="#241019" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
 <path d="M3 -179 L7 -179 L5 -171 Z" fill="#ffffff" stroke="#241019" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="0" cy="-156" r="5" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
+<path d="M-68 -130L-75 -134M-68 -126L-76 -126M68 -172L75 -176M68 -168L76 -168" stroke="#241019" stroke-width="2" opacity=".7" stroke-linecap="round"/>
+<path d="M-16 -206Q-8 -209 0 -206M0 -206Q8 -209 16 -206" stroke="#241019" stroke-width="2.5" fill="none" opacity=".5" stroke-linecap="round"/>
 </g>
+<g stroke="#e8dcc8" stroke-width="2.5" opacity=".5" stroke-linecap="round">
+<path d="M900 360l-6 14M960 340l-6 14M1040 380l-6 14M1090 340l-6 14M930 500l-6 14M1010 540l-6 14M880 600l-6 14M1060 640l-6 14"/>
+</g>
+<polygon points="1000,300 1024,360 1006,360 1030,420 996,372 1012,372" fill="#ffd27a" opacity=".8"/>
+<path d="M842 762Q880 720 920 762Z M960 762Q1000 712 1040 762Z M1060 762Q1096 724 1122 762Z" fill="#150b1e" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+<g><ellipse cx="760" cy="596" rx="16" ry="6" fill="#6b4226" stroke="#241019" stroke-width="4"/><path d="M748 596L748 564Q748 556 756 556L764 556Q772 556 772 564L772 596Z" fill="#e8dcc8" stroke="#241019" stroke-width="4"/><path d="M772 570Q782 572 778 580Q774 586 768 582" fill="none" stroke="#241019" stroke-width="3.5"/><path d="M754 548q4 -8 0 -16M764 548q-4 -8 0 -16" stroke="#9a9aaa" stroke-width="3" fill="none" opacity=".6" stroke-linecap="round"/></g>
+<g fill="#e8dcc8" opacity=".22"><circle cx="420" cy="240" r="2"/><circle cx="560" cy="420" r="2"/><circle cx="240" cy="420" r="2"/><circle cx="640" cy="520" r="2"/><circle cx="340" cy="640" r="2"/><circle cx="1080" cy="240" r="2"/></g>
+<g stroke="#3a2230" stroke-width="2" opacity=".8" fill="none"><path d="M120 582H173M120 612H187M120 642H213M120 672H240M120 702H267"/></g>
 <rect x="26" y="26" width="1100" height="844" rx="26" fill="none" stroke="#ffd27a" stroke-width="6" opacity="0.55"/>
 <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity="0.32"/>
 </svg>

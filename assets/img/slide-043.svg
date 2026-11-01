@@ -137,6 +137,41 @@
   <rect x="0" y="0" width="1152" height="896" fill="#0b0710" opacity=".18"/>
   <circle cx="575" cy="170" r="80" fill="#ffd27a" opacity=".14"/>
   <ellipse cx="575" cy="744" rx="190" ry="18" fill="#ffd27a" opacity=".16"/>
+  <!-- DÉTAILS+ v3 : plinthe, toile d'araignée, horloge 23 h 44, ciboulette, clés, photo frigo, poussières, broche/brode protagoniste -->
+  <rect x="0" y="746" width="1152" height="16" fill="#241a2e"/>
+  <line x1="0" y1="746" x2="1152" y2="746" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#e8dcc8" stroke-width="2.5" opacity=".5" fill="none">
+  <path d="M0 0L0 108M0 0L108 0M0 0L74 74"/>
+  <path d="M36 0Q0 0 0 36M72 0Q0 0 0 72M108 0Q0 0 0 108"/>
+  </g>
+  <circle cx="54" cy="54" r="5" fill="#0b0710"/>
+  <path d="M54 54L46 46M54 54L62 46M54 54L46 62M54 54L62 62" stroke="#0b0710" stroke-width="2" fill="none"/>
+  <g>
+  <circle cx="520" cy="250" r="36" fill="#6b4226" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="520" cy="250" r="27" fill="#e8dcc8" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M520 228V234M520 266V272M498 250H504M536 250H542" stroke="#241019" stroke-width="3" stroke-linecap="round"/>
+  <line x1="520" y1="250" x2="516" y2="227" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
+  <line x1="520" y1="250" x2="498" y2="252" stroke="#241019" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="520" cy="250" r="3" fill="#241019"/>
+  </g>
+  <g transform="translate(410 740)">
+  <ellipse cx="0" cy="0" rx="24" ry="9" fill="#f6efe4" stroke="#241019" stroke-width="4.5" stroke-linejoin="round"/>
+  <circle cx="-10" cy="-4" r="2.6" fill="#b03aeb"/><circle cx="-2" cy="-6" r="2.6" fill="#b03aeb"/><circle cx="7" cy="-4" r="2.6" fill="#b03aeb"/><circle cx="0" cy="-2" r="2.2" fill="#ff7518"/>
+  </g>
+  <g transform="translate(588 756)">
+  <circle cx="0" cy="0" r="7" fill="none" stroke="#e8b64c" stroke-width="4"/>
+  <line x1="6" y1="5" x2="20" y2="16" stroke="#e8b64c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="16" y1="12" x2="22" y2="12" stroke="#e8b64c" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <g transform="rotate(-5 245 320)">
+  <rect x="220" y="295" width="52" height="46" rx="3" fill="#e8dcc8" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="246" cy="318" r="10" fill="#ff7518" stroke="#241019" stroke-width="3"/>
+  </g>
+  <g fill="#ffd27a" opacity=".5">
+  <circle cx="520" cy="180" r="2.5"/><circle cx="590" cy="210" r="2"/><circle cx="560" cy="260" r="2.5"/><circle cx="620" cy="170" r="2"/><circle cx="500" cy="300" r="2"/>
+  </g>
+  <circle cx="290" cy="624" r="6" fill="#b3122e" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="258" y="736" width="64" height="10" rx="4" fill="#120d18" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
   <!-- bordure et vignette -->
   <rect x="26" y="26" width="1100" height="844" rx="26" fill="none" stroke="#ffd27a" stroke-width="6" opacity=".55"/>
   <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
