@@ -151,5 +151,39 @@
   <path d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z" transform="translate(708 706) scale(.8)" fill="#ffd27a" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>
   <path d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z" transform="translate(690 640) scale(.6)" fill="#ffd27a" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>
   <!-- vignette -->
-  <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
+    <!-- DETAILS+ v3 : moulure, motifs, toile, pluie, horloge 23h44, accessoires -->
+  <line x1="0" y1="400" x2="1152" y2="400" stroke="#3c2415" stroke-width="5" opacity=".55"/>
+  <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(80 440)" fill="#b03aeb" opacity=".06"/>
+  <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(264 440)" fill="#b03aeb" opacity=".06"/>
+  <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(448 440)" fill="#b03aeb" opacity=".06"/>
+  <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(632 440)" fill="#b03aeb" opacity=".06"/>
+  <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(816 440)" fill="#b03aeb" opacity=".06"/>
+  <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(1000 440)" fill="#b03aeb" opacity=".06"/>
+  <g stroke="#e8dcc8" stroke-width="3" opacity=".3" fill="none" stroke-linecap="round">
+    <line x1="1152" y1="0" x2="1152" y2="110"/><line x1="1152" y1="0" x2="1042" y2="0"/><line x1="1152" y1="0" x2="1082" y2="70"/>
+    <path d="M1112 0 Q1120 28 1152 36"/><path d="M1072 0 Q1084 46 1152 58"/><path d="M1032 0 Q1052 66 1152 84"/>
+  </g>
+  <circle cx="1122" cy="44" r="4.5" fill="#241019"/>
+  <path d="M1118 41 L1111 36 M1126 41 L1133 36 M1118 47 L1111 52 M1126 47 L1133 52" stroke="#241019" stroke-width="2" stroke-linecap="round"/>
+  <path d="M150 200 L146 222 M252 300 L248 322 M300 180 L296 202" stroke="#cfe6f8" stroke-width="3" opacity=".5" stroke-linecap="round"/>
+  <circle cx="571" cy="679" r="13" fill="#e8dcc8" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="571" y1="679" x2="566" y2="668" stroke="#241019" stroke-width="3" stroke-linecap="round"/>
+  <line x1="571" y1="679" x2="565" y2="689" stroke="#241019" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="571" cy="679" r="2.2" fill="#b3122e"/>
+  <ellipse cx="600" cy="812" rx="130" ry="22" fill="#ffd27a" opacity=".08"/>
+  <ellipse cx="560" cy="838" rx="16" ry="8" transform="rotate(-12 560 838)" fill="#b03aeb" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="596" cy="846" rx="16" ry="8" transform="rotate(8 596 846)" fill="#b03aeb" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
+  <g transform="translate(500 800) scale(1.05)">
+    <path d="M-28 -140 Q-34 -80 -38 -24" fill="none" stroke="#000000" stroke-width="4" opacity=".25" stroke-linecap="round"/>
+    <path d="M28 -140 Q34 -80 38 -24" fill="none" stroke="#000000" stroke-width="4" opacity=".25" stroke-linecap="round"/>
+    <circle cx="0" cy="-108" r="2.5" fill="#e8b64c"/>
+    <circle cx="0" cy="-96" r="2.5" fill="#e8b64c"/>
+  </g>
+  <g transform="translate(860 800) scale(1.02)">
+    <path d="M-17 -171 Q-32 -150 -20 -130" fill="none" stroke="#241019" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-24 -148 L-13 -148 L-18.5 -137 Z" fill="#f6efe4" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="-80" cy="-117" r="5" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
+    <path d="M-20 -100 L-25 -40" fill="none" stroke="#000000" stroke-width="4" opacity=".2" stroke-linecap="round"/>
+  </g>
+<rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
 </svg>
