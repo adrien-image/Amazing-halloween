@@ -20,3 +20,4 @@ for (const f of files) {
 
 console.log("\n" + (failed === 0 ? "All " + files.length + " suite(s) passed." : failed + " of " + files.length + " suite(s) FAILED."));
 process.exit(failed === 0 ? 0 : 1);
+

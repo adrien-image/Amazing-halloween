@@ -86,7 +86,7 @@
     var img = safeImage(node.image);
     if (img) {
       els.image.src = img;
-      els.image.alt = isHome ? "Illustration de la soirée" : "Illustration de la scène";
+      els.image.alt = node.alt || (isHome ? "Illustration de la soirée" : "Illustration de la scène");
       els.image.style.visibility = "visible";
     } else {
       els.image.removeAttribute("src");
@@ -185,3 +185,4 @@
     resizeTimer = setTimeout(fitText, 120);
   });
 })();
+

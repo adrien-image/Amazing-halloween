@@ -85,3 +85,4 @@ if (failures === 0) {
   console.error("story.test.js: " + failures + " FAILURE(S) / " + checks + " checks");
 }
 process.exit(failures === 0 ? 0 : 1);
+
