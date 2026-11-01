@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 896" width="1152" height="896">
   <!-- mur de la chambre, tamisé -->
   <rect x="0" y="0" width="1152" height="896" fill="#241a33"/>
@@ -151,7 +152,7 @@
   <path d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z" transform="translate(708 706) scale(.8)" fill="#ffd27a" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>
   <path d="M0 -9 L2.2 -2.2 L9 0 L2.2 2.2 L0 9 L-2.2 2.2 L-9 0 L-2.2 -2.2 Z" transform="translate(690 640) scale(.6)" fill="#ffd27a" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>
   <!-- vignette -->
-    <!-- DETAILS+ v3 : moulure, motifs, toile, pluie, horloge 23h44, accessoires -->
+  <!-- DETAILS+ v3 : moulure, motifs, toile, pluie, horloge 23h44, accessoires -->
   <line x1="0" y1="400" x2="1152" y2="400" stroke="#3c2415" stroke-width="5" opacity=".55"/>
   <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(80 440)" fill="#b03aeb" opacity=".06"/>
   <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(264 440)" fill="#b03aeb" opacity=".06"/>
@@ -160,8 +161,12 @@
   <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(816 440)" fill="#b03aeb" opacity=".06"/>
   <path d="M0 -6 L6 0 L0 6 L-6 0 Z" transform="translate(1000 440)" fill="#b03aeb" opacity=".06"/>
   <g stroke="#e8dcc8" stroke-width="3" opacity=".3" fill="none" stroke-linecap="round">
-    <line x1="1152" y1="0" x2="1152" y2="110"/><line x1="1152" y1="0" x2="1042" y2="0"/><line x1="1152" y1="0" x2="1082" y2="70"/>
-    <path d="M1112 0 Q1120 28 1152 36"/><path d="M1072 0 Q1084 46 1152 58"/><path d="M1032 0 Q1052 66 1152 84"/>
+    <line x1="1152" y1="0" x2="1152" y2="110"/>
+    <line x1="1152" y1="0" x2="1042" y2="0"/>
+    <line x1="1152" y1="0" x2="1082" y2="70"/>
+    <path d="M1112 0 Q1120 28 1152 36"/>
+    <path d="M1072 0 Q1084 46 1152 58"/>
+    <path d="M1032 0 Q1052 66 1152 84"/>
   </g>
   <circle cx="1122" cy="44" r="4.5" fill="#241019"/>
   <path d="M1118 41 L1111 36 M1126 41 L1133 36 M1118 47 L1111 52 M1126 47 L1133 52" stroke="#241019" stroke-width="2" stroke-linecap="round"/>
@@ -208,5 +213,5 @@
   <ellipse cx="196" cy="182" rx="30" ry="12" transform="rotate(-15 196 182)" fill="#0b0710" opacity=".55"/>
   <line x1="298" y1="122" x2="326" y2="102" stroke="#e8dcc8" stroke-width="2.5" opacity=".8" stroke-linecap="round"/>
   <circle cx="328" cy="100" r="2.5" fill="#e8dcc8"/>
-<rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
+  <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
 </svg>

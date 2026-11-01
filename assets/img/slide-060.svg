@@ -1,3 +1,4 @@
+<?xml version="1.0" ?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 896" width="1152" height="896">
   <!-- mur de la chambre, tamisé -->
   <rect x="0" y="0" width="1152" height="896" fill="#241a33"/>
@@ -46,8 +47,8 @@
   <line x1="608" y1="110" x2="598" y2="110" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
   <line x1="576" y1="142" x2="576" y2="132" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
   <line x1="544" y1="110" x2="554" y2="110" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
-  <line x1="576" y1="110" x2="576" y2="88" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
-  <line x1="576" y1="110" x2="592" y2="120" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
+  <line x1="576" y1="110" x2="573.5" y2="90" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
+  <line x1="576" y1="110" x2="552" y2="112.5" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
   <circle cx="576" cy="110" r="4.5" fill="#b3122e" stroke="#241019" stroke-width="3"/>
   <!-- guirlande lumineuse -->
   <path d="M310 250 Q576 128 842 250" fill="none" stroke="#b03aeb" stroke-width="8" stroke-linecap="round"/>
@@ -177,8 +178,16 @@
   <g>
     <rect x="336" y="612" width="44" height="48" rx="3" fill="#6b4226" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <rect x="341" y="617" width="34" height="38" fill="#e8dcc8" stroke="#241019" stroke-width="2.4"/>
-    <rect x="350" y="617" width="8.5" height="9.5" fill="#6b4226"/><rect x="367" y="617" width="8" height="9.5" fill="#6b4226"/><rect x="341" y="626.5" width="8.5" height="9.5" fill="#6b4226"/><rect x="358.5" y="626.5" width="8.5" height="9.5" fill="#6b4226"/><rect x="350" y="636" width="8.5" height="9.5" fill="#6b4226"/><rect x="367" y="636" width="8" height="9.5" fill="#6b4226"/><rect x="341" y="645.5" width="8.5" height="9.5" fill="#6b4226"/><rect x="358.5" y="645.5" width="8.5" height="9.5" fill="#6b4226"/>
-    <circle cx="349" cy="610" r="4" fill="#e8dcc8" stroke="#241019" stroke-width="2"/><circle cx="368" cy="610" r="4" fill="#241019" stroke="#241019" stroke-width="2"/>
+    <rect x="350" y="617" width="8.5" height="9.5" fill="#6b4226"/>
+    <rect x="367" y="617" width="8" height="9.5" fill="#6b4226"/>
+    <rect x="341" y="626.5" width="8.5" height="9.5" fill="#6b4226"/>
+    <rect x="358.5" y="626.5" width="8.5" height="9.5" fill="#6b4226"/>
+    <rect x="350" y="636" width="8.5" height="9.5" fill="#6b4226"/>
+    <rect x="367" y="636" width="8" height="9.5" fill="#6b4226"/>
+    <rect x="341" y="645.5" width="8.5" height="9.5" fill="#6b4226"/>
+    <rect x="358.5" y="645.5" width="8.5" height="9.5" fill="#6b4226"/>
+    <circle cx="349" cy="610" r="4" fill="#e8dcc8" stroke="#241019" stroke-width="2"/>
+    <circle cx="368" cy="610" r="4" fill="#241019" stroke="#241019" stroke-width="2"/>
   </g>
   <!-- cœurs supplémentaires et étincelles -->
   <path d="M0 6 Q-10 -2 -6 -9 Q0 -14 6 -9 Q10 -2 0 6 Z" transform="translate(760 330) scale(1.1)" fill="#b3122e" stroke="#241019" stroke-width="4" stroke-linejoin="round" opacity=".8"/>
@@ -189,7 +198,10 @@
   <ellipse cx="600" cy="842" rx="120" ry="13" fill="#ffd27a" opacity=".1"/>
   <ellipse cx="220" cy="844" rx="140" ry="15" fill="#cfe6f8" opacity=".06"/>
   <!-- pelote de laine à côté de Minou -->
-  <g transform="translate(416 852)"><circle r="10" fill="#b03aeb" stroke="#241019" stroke-width="4"/><path d="M-8 -2 Q0 -8 8 -2 M-8 3 Q0 9 8 3" fill="none" stroke="#5b1e86" stroke-width="2.6" stroke-linecap="round"/></g>
+  <g transform="translate(416 852)">
+    <circle r="10" fill="#b03aeb" stroke="#241019" stroke-width="4"/>
+    <path d="M-8 -2 Q0 -8 8 -2 M-8 3 Q0 9 8 3" fill="none" stroke="#5b1e86" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
   <!-- étagère avec livres -->
   <g>
     <rect x="380" y="118" width="150" height="12" rx="4" fill="#6b4226" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
@@ -226,7 +238,14 @@
   <!-- brume basse et poussière dans le rayon de lune -->
   <ellipse cx="300" cy="852" rx="260" ry="24" fill="#b03aeb" opacity=".06"/>
   <ellipse cx="860" cy="862" rx="280" ry="28" fill="#b03aeb" opacity=".05"/>
-  <g fill="#ffd27a" opacity=".3"><circle cx="380" cy="500" r="2.5"/><circle cx="440" cy="580" r="2"/><circle cx="350" cy="650" r="2.5"/><circle cx="500" cy="700" r="2"/></g>
+  <g fill="#ffd27a" opacity=".3">
+    <circle cx="380" cy="500" r="2.5"/>
+    <circle cx="440" cy="580" r="2"/>
+    <circle cx="350" cy="650" r="2.5"/>
+    <circle cx="500" cy="700" r="2"/>
+  </g>
+  <!-- cadre doré inset uniforme -->
+  <rect x="26" y="26" width="1100" height="844" rx="26" fill="none" stroke="#ffd27a" stroke-width="6" opacity=".55"/>
   <!-- vignette -->
   <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
 </svg>
