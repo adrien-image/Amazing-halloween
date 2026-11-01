@@ -185,5 +185,28 @@
     <circle cx="-80" cy="-117" r="5" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
     <path d="M-20 -100 L-25 -40" fill="none" stroke="#000000" stroke-width="4" opacity=".2" stroke-linecap="round"/>
   </g>
+  <!-- APPLY FIND : rotation alliance, larme, écrin Yvonne, doublure cape, lumière, nuage -->
+  <g transform="translate(860 800) scale(1.02)">
+    <ellipse cx="54" cy="-88" rx="9" ry="6" transform="rotate(30 54 -88)" fill="none" stroke="#e8b64c" stroke-width="3.5"/>
+    <path d="M62 -100 Q73 -88 66 -75" fill="none" stroke="#ffd27a" stroke-width="3" opacity=".6" stroke-linecap="round"/>
+    <path d="M45 -101 Q37 -89 43 -77" fill="none" stroke="#ffd27a" stroke-width="3" opacity=".4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(500 800) scale(1.05)">
+    <path d="M16 -186 Q19 -180 16 -176 Q13 -180 16 -186 Z" fill="#cfe6f8" opacity=".85"/>
+    <circle cx="-19" cy="-181" r="4" fill="#ff7518" opacity=".25"/>
+    <circle cx="21" cy="-181" r="4" fill="#ff7518" opacity=".25"/>
+    <path d="M-54 -20 Q0 -8 54 -20 L54 -12 Q0 0 -54 -12 Z" fill="#b3122e" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <rect x="478" y="664" width="36" height="10" rx="2" fill="#6b4226" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="478" y="654" width="36" height="10" rx="2" transform="rotate(-35 478 664)" fill="#6b4226" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="482" y="666" width="28" height="5" fill="#b3122e"/>
+  <circle cx="496" cy="661" r="4" fill="none" stroke="#e8b64c" stroke-width="3"/>
+  <circle cx="590" cy="620" r="2" fill="#ffd27a" opacity=".5"/>
+  <circle cx="612" cy="612" r="1.8" fill="#ffd27a" opacity=".5"/>
+  <circle cx="600" cy="596" r="1.6" fill="#ffd27a" opacity=".5"/>
+  <path d="M584 764 L636 764 L720 896 L480 896 Z" fill="#ffd27a" opacity=".07"/>
+  <ellipse cx="196" cy="182" rx="30" ry="12" transform="rotate(-15 196 182)" fill="#0b0710" opacity=".55"/>
+  <line x1="298" y1="122" x2="326" y2="102" stroke="#e8dcc8" stroke-width="2.5" opacity=".8" stroke-linecap="round"/>
+  <circle cx="328" cy="100" r="2.5" fill="#e8dcc8"/>
 <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity=".32"/>
 </svg>

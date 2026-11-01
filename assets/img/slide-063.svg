@@ -32,4 +32,20 @@
   <line x1="1110" y1="720" x2="1110" y2="738" stroke="#241019" stroke-width="3" stroke-linecap="round"/>
   <line x1="1104" y1="738" x2="1116" y2="738" stroke="#241019" stroke-width="3" stroke-linecap="round"/>
   <circle cx="1109" cy="710" r="1.8" fill="#e8dcc8"/>
+  <!-- APPLY FIND : coeur épitaphe, ruban deuil, coeur mariés, fleurs arche, bouteille -->
+  <g transform="rotate(-4 400 745)">
+    <rect x="258" y="663" width="284" height="8" fill="#241019"/>
+    <path d="M0 4 C0 -2 -10 -2 -10 4 C-10 10 0 16 0 16 C0 16 10 10 10 4 C10 -2 0 -2 0 4 Z" transform="translate(520 726) scale(1.1)" fill="#b3122e" stroke="#241019" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <path d="M0 4 C0 -2 -10 -2 -10 4 C-10 10 0 16 0 16 C0 16 10 10 10 4 C10 -2 0 -2 0 4 Z" transform="translate(583 624) scale(1.7)" fill="#b3122e" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M0 -1 L0.25 -0.25 L1 0 L0.25 0.25 L0 1 L-0.25 0.25 L-1 0 L-0.25 -0.25 Z" transform="translate(608 602) scale(.55)" fill="#ffd27a" stroke="#241019" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="540" cy="232" r="7" fill="#ff7518" stroke="#241019" stroke-width="3"/>
+  <circle cx="540" cy="232" r="3" fill="#ffd27a"/>
+  <circle cx="576" cy="220" r="8" fill="#b03aeb" stroke="#241019" stroke-width="3"/>
+  <circle cx="576" cy="220" r="3.2" fill="#ffd27a"/>
+  <circle cx="612" cy="232" r="7" fill="#ffd27a" stroke="#241019" stroke-width="3"/>
+  <circle cx="612" cy="232" r="3" fill="#b3122e"/>
+  <rect x="1122" y="706" width="12" height="34" rx="3" fill="#3c2415" stroke="#241019" stroke-width="3.5" stroke-linejoin="round"/>
+  <rect x="1125" y="694" width="6" height="14" fill="#3c2415" stroke="#241019" stroke-width="3"/>
+  <rect x="1124" y="689" width="8" height="6" rx="2" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
 <rect x="0" y="0" width="1152" height="896" fill="none" stroke="#0b0710" stroke-width="90" opacity="0.32"/></svg>
