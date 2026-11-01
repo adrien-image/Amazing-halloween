@@ -185,3 +185,4 @@
     resizeTimer = setTimeout(fitText, 120);
   });
 })();
+
