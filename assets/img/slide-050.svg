@@ -1,5 +1,18 @@
 <?xml version="1.0" ?>
+<!-- rich-cel-v1 -->
+<!-- rich-cel-v2 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 896" width="1152" height="896">
+  <defs>
+    <pattern id="rc-wallpaper" x="46" y="18" width="92" height="116" patternUnits="userSpaceOnUse">
+      <path d="M46 14 Q54 30 46 44 Q38 30 46 14 Z M46 44 Q60 46 64 58 Q52 56 46 44 Z M46 44 Q32 46 28 58 Q40 56 46 44 Z M43 44 L49 44 L48 66 L44 66 Z" fill="#0b0710"/>
+      <circle cx="46" cy="76" r="3"/>
+      <path d="M0 100 L6 106 L0 112 L-6 106 Z M92 100 L98 106 L92 112 L86 106 Z" fill="#0b0710"/>
+    </pattern>
+    <pattern id="rc-grain" width="40" height="64" patternUnits="userSpaceOnUse" patternTransform="skewX(-19)">
+      <path d="M8 0 Q12 16 8 32 Q4 48 8 64 M24 6 Q28 18 25 30 M30 34 Q34 46 30 60 M16 40 Q19 48 16 56" fill="none" stroke="#120a10" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="25" cy="31" rx="2.6" ry="5" fill="none" stroke="#120a10" stroke-width="1.6"/>
+    </pattern>
+  </defs>
   <rect x="0" y="0" width="1152" height="896" fill="#0b0710"/>
   <g fill="#e8dcc8" opacity=".7">
     <circle cx="0" cy="103" r="3"/>
@@ -172,6 +185,8 @@
   </g>
   <g>
     <rect x="200" y="280" width="90" height="110" rx="4" fill="#6b4226" stroke="#241019" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect class="rc-shade" x="270.0" y="283.0" width="18.0" height="104.0" rx="4.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M205.0 288.0 L268.0 288.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="209" y="289" width="72" height="92" fill="#d9cbb2" stroke="#241019" stroke-width="3"/>
     <circle cx="245" cy="330" r="17" fill="#ff7518" stroke="#241019" stroke-width="4"/>
     <path d="M245 313 Q247 307 253 306" fill="none" stroke="#3c2415" stroke-width="4" stroke-linecap="round"/>

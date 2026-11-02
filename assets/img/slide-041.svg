@@ -1,10 +1,36 @@
 <?xml version="1.0" ?>
+<!-- rich-cel-v1 -->
+<!-- rich-cel-v2 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 896" width="1152" height="896">
+  <defs>
+    <pattern id="rc-wallpaper" x="46" y="18" width="92" height="116" patternUnits="userSpaceOnUse">
+      <path d="M46 14 Q54 30 46 44 Q38 30 46 14 Z M46 44 Q60 46 64 58 Q52 56 46 44 Z M46 44 Q32 46 28 58 Q40 56 46 44 Z M43 44 L49 44 L48 66 L44 66 Z" fill="#0b0710"/>
+      <circle cx="46" cy="76" r="3"/>
+      <path d="M0 100 L6 106 L0 112 L-6 106 Z M92 100 L98 106 L92 112 L86 106 Z" fill="#0b0710"/>
+    </pattern>
+    <pattern id="rc-grain" width="40" height="64" patternUnits="userSpaceOnUse" patternTransform="skewX(-19)">
+      <path d="M8 0 Q12 16 8 32 Q4 48 8 64 M24 6 Q28 18 25 30 M30 34 Q34 46 30 60 M16 40 Q19 48 16 56" fill="none" stroke="#120a10" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="25" cy="31" rx="2.6" ry="5" fill="none" stroke="#120a10" stroke-width="1.6"/>
+    </pattern>
+  </defs>
   <rect x="0" y="0" width="1152" height="896" fill="#33203a"/>
   <path d="M46 0V762M138 0V762M230 0V762M322 0V762M414 0V762M506 0V762M598 0V762M690 0V762M782 0V762M874 0V762M966 0V762M1058 0V762M1150 0V762" stroke="#b03aeb" stroke-width="10" opacity=".07" fill="none"/>
+  <g class="rc-wall">
+    <rect x="0" y="0" width="1152" height="762" fill="url(#rc-wallpaper)" opacity=".16"/>
+    <rect x="0" y="0" width="1152" height="34" fill="#0b0710" opacity=".22"/>
+    <rect x="0" y="34" width="1152" height="10" fill="#0b0710" opacity=".1"/>
+    <rect x="0" y="726" width="1152" height="36" fill="#0b0710" opacity=".18"/>
+    <rect x="0" y="716" width="1152" height="10" fill="#0b0710" opacity=".08"/>
+  </g>
   <path d="M0 380V762M76 380V762M152 380V762M228 380V762M304 380V762M380 380V762M456 380V762M532 380V762M608 380V762M684 380V762M760 380V762M836 380V762M912 380V762M988 380V762M1064 380V762M1140 380V762M0 380H1152M0 456H1152M0 532H1152M0 608H1152M0 684H1152M0 760H1152" stroke="#4a3050" stroke-width="2" opacity=".5" fill="none"/>
   <rect x="0" y="760" width="1152" height="136" fill="#4a2c3a"/>
   <path d="M0 762 L-46 896M130 762 L84 896M260 762 L214 896M390 762 L344 896M520 762 L474 896M650 762 L604 896M780 762 L734 896M910 762 L864 896M1040 762 L994 896M1170 762 L1124 896" stroke="#3a2230" stroke-width="3" fill="none"/>
+  <g class="rc-floor">
+    <path d="M130 762 L260 762 L214 896 L84 896 Z M390 762 L520 762 L474 896 L344 896 Z M650 762 L780 762 L734 896 L604 896 Z M910 762 L1040 762 L994 896 L864 896 Z" fill="#0b0710" opacity=".12"/>
+    <rect x="0" y="762" width="1152" height="134" fill="url(#rc-grain)" opacity=".28"/>
+    <path d="M-31 852 L99 852 M117 800 L247 800 M229 852 L359 852 M377 800 L507 800 M489 852 L619 852 M637 800 L767 800 M749 852 L879 852 M897 800 L1027 800 M1009 852 L1139 852" stroke="#120a10" stroke-width="3" opacity=".35" fill="none"/>
+    <rect x="0" y="762" width="1152" height="14" fill="#0b0710" opacity=".22"/>
+  </g>
   <line x1="0" y1="761" x2="1152" y2="761" stroke="#241019" stroke-width="6" stroke-linecap="round"/>
   <polygon points="1004,340 1004,756 760,896 560,896" fill="#b03aeb" opacity="0.07"/>
   <g>
@@ -23,6 +49,8 @@
   <polygon points="756,380 954,380 700,896 420,896" fill="#e8dcc8" opacity="0.05"/>
   <g>
     <rect x="322" y="158" width="64" height="52" rx="3" fill="#6b4226" stroke="#241019" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect class="rc-shade" x="371.2" y="161.0" width="12.8" height="46.0" rx="3.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M327.0 162.2 L369.2 162.2" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="330" y="166" width="48" height="36" fill="#e8dcc8" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>
     <path d="M336 170 L346 182 L340 190 L352 198 L346 208" stroke="#241019" stroke-width="2.5" fill="none" stroke-linecap="round"/>
   </g>
@@ -59,6 +87,8 @@
   </g>
   <g>
     <rect x="740" y="110" width="230" height="270" rx="6" fill="#6b4226" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="928.0" y="113.0" width="40.0" height="264.0" rx="6.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M746.0 118.0 L926.0 118.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="756" y="126" width="198" height="238" fill="#0b0710" stroke="#241019" stroke-width="5"/>
     <g fill="#e8dcc8" opacity=".85">
       <circle cx="790" cy="160" r="2.4"/>
@@ -79,6 +109,8 @@
   </g>
   <g>
     <rect x="1000" y="300" width="140" height="460" rx="6" fill="#6b4226" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="1110.0" y="303.0" width="28.0" height="454.0" rx="6.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M1006.0 308.0 L1108.0 308.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="1012" y="312" width="116" height="448" fill="#0b0710" stroke="#241019" stroke-width="5"/>
     <ellipse cx="1070" cy="520" rx="44" ry="150" fill="#b03aeb" opacity=".08"/>
     <polygon points="1000,300 948,332 948,760 1000,760" fill="#3c2415" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
@@ -215,16 +247,24 @@
     <path d="M38 -148 L72 -128" fill="none" stroke="#1a1420" stroke-width="11" stroke-linecap="round"/>
     <circle cx="76" cy="-124" r="7" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
     <path d="M-44 -158 Q-52 -80 -60 -8 Q-60 2 -48 2 L48 2 Q60 2 60 -8 Q52 -80 44 -158 Q0 -172 -44 -158 Z" fill="#1a1420" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <path class="rc-cape" d="M14 -164 Q44 -156 46 -120 Q52 -60 58 -8 Q58 2 48 2 L26 2 Q30 -70 14 -164 Z" fill="#000000" opacity=".38"/>
+    <path class="rc-cape" d="M-40 -152 Q-48 -80 -54 -12" fill="none" stroke="#5d4a78" stroke-width="3.5" stroke-linecap="round" opacity=".8"/>
+    <path class="rc-cape" d="M-8 -60 Q-10 -30 -14 -4 M10 -90 Q12 -50 16 -4" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" opacity=".35"/>
     <path d="M-32 -162 L-48 -200 L-10 -178 Z" fill="#120d18" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
     <path d="M32 -162 L48 -200 L10 -178 Z" fill="#120d18" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
     <path d="M-15 -156 L0 -118 L15 -156 Q0 -163 -15 -156 Z" fill="#f6efe4" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <circle cx="0" cy="-192" r="25" fill="#f2e8dc" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+    <path class="rc-face" d="M3.8 -216.7 A25 25 0 0 1 3.8 -167.3 A30.0 30.0 0 0 0 3.8 -216.7 Z" fill="#d6c3ae"/>
+    <path class="rc-face" d="M-13.8 -171.2 Q0 -165.0 13.8 -171.2 Q0 -168.2 -13.8 -171.2 Z" fill="#d6c3ae"/>
+    <path class="rc-face" d="M2.0 -190.8 q4.0 5.0 -1.0 7.5" fill="none" stroke="#8a6a58" stroke-width="2.4" stroke-linecap="round"/>
     <path d="M-25 -196 Q-27 -224 0 -224 Q27 -224 25 -196 Q17 -210 0 -208 Q-17 -210 -25 -196 Z" fill="#14101c" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <path d="M-7 -209 L0 -198 L7 -209 Q0 -213 -7 -209 Z" fill="#14101c"/>
     <path d="M-24 -205 Q-18 -210 -12 -206" fill="none" stroke="#241019" stroke-width="3.6" stroke-linecap="round"/>
     <path d="M-6 -206 Q0 -210 6 -205" fill="none" stroke="#241019" stroke-width="3.6" stroke-linecap="round"/>
     <circle cx="-14" cy="-194" r="3.6" fill="#241019"/>
+    <circle class="rc-eye" cx="-12.7" cy="-195.4" r="1.37" fill="#ffffff"/>
     <circle cx="-2" cy="-194" r="3.6" fill="#241019"/>
+    <circle class="rc-eye" cx="-0.7" cy="-195.4" r="1.37" fill="#ffffff"/>
     <ellipse cx="-8" cy="-176" rx="5.5" ry="7" fill="#5b1220" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
     <path d="M-12 -174 L-8 -174 L-10 -167 Z" fill="#ffffff" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>
     <path d="M-4 -174 L0 -174 L-2 -167 Z" fill="#ffffff" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>

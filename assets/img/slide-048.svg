@@ -1,7 +1,27 @@
 <?xml version="1.0" ?>
+<!-- rich-cel-v1 -->
+<!-- rich-cel-v2 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 896" width="1152" height="896">
+  <defs>
+    <pattern id="rc-wallpaper" x="46" y="18" width="92" height="116" patternUnits="userSpaceOnUse">
+      <path d="M46 14 Q54 30 46 44 Q38 30 46 14 Z M46 44 Q60 46 64 58 Q52 56 46 44 Z M46 44 Q32 46 28 58 Q40 56 46 44 Z M43 44 L49 44 L48 66 L44 66 Z" fill="#0b0710"/>
+      <circle cx="46" cy="76" r="3"/>
+      <path d="M0 100 L6 106 L0 112 L-6 106 Z M92 100 L98 106 L92 112 L86 106 Z" fill="#0b0710"/>
+    </pattern>
+    <pattern id="rc-grain" width="40" height="64" patternUnits="userSpaceOnUse" patternTransform="skewX(-19)">
+      <path d="M8 0 Q12 16 8 32 Q4 48 8 64 M24 6 Q28 18 25 30 M30 34 Q34 46 30 60 M16 40 Q19 48 16 56" fill="none" stroke="#120a10" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="25" cy="31" rx="2.6" ry="5" fill="none" stroke="#120a10" stroke-width="1.6"/>
+    </pattern>
+  </defs>
   <rect x="0" y="0" width="576" height="760" fill="#241a33"/>
   <path d="M46 0V760M138 0V760M230 0V760M322 0V760M414 0V760M506 0V760" stroke="#b03aeb" stroke-width="10" opacity=".07" fill="none"/>
+  <g class="rc-wall" stroke="none">
+    <rect x="0" y="0" width="1152" height="762" fill="url(#rc-wallpaper)" opacity=".16"/>
+    <rect x="0" y="0" width="1152" height="34" fill="#0b0710" opacity=".22"/>
+    <rect x="0" y="34" width="1152" height="10" fill="#0b0710" opacity=".1"/>
+    <rect x="0" y="726" width="1152" height="36" fill="#0b0710" opacity=".18"/>
+    <rect x="0" y="716" width="1152" height="10" fill="#0b0710" opacity=".08"/>
+  </g>
   <rect x="576" y="0" width="576" height="760" fill="#1c1228"/>
   <path d="M640 40V360M720 40V360M800 40V360M880 40V360M960 40V360M1040 40V360M1120 40V360M600 100H1152M600 180H1152M600 260H1152M600 340H1152" stroke="#4a3050" stroke-width="2" opacity=".4" fill="none"/>
   <path d="M668 380V760M760 380V760M852 380V760M944 380V760M1036 380V760M1128 380V760M576 456H1152M576 532H1152M576 608H1152M576 684H1152" stroke="#4a3050" stroke-width="2" opacity=".5" fill="none"/>
@@ -15,6 +35,12 @@
   </g>
   <rect x="0" y="760" width="1152" height="136" fill="#4a2c3a"/>
   <path d="M0 762 L-46 896M130 762 L84 896M260 762 L214 896M390 762 L344 896M520 762 L474 896M650 762 L604 896M780 762 L734 896M910 762 L864 896M1040 762 L994 896M1170 762 L1124 896" stroke="#3a2230" stroke-width="3" fill="none"/>
+  <g class="rc-floor">
+    <path d="M130 762 L260 762 L214 896 L84 896 Z M390 762 L520 762 L474 896 L344 896 Z M650 762 L780 762 L734 896 L604 896 Z M910 762 L1040 762 L994 896 L864 896 Z" fill="#0b0710" opacity=".12"/>
+    <rect x="0" y="762" width="1152" height="134" fill="url(#rc-grain)" opacity=".28"/>
+    <path d="M-31 852 L99 852 M117 800 L247 800 M229 852 L359 852 M377 800 L507 800 M489 852 L619 852 M637 800 L767 800 M749 852 L879 852 M897 800 L1027 800 M1009 852 L1139 852" stroke="#120a10" stroke-width="3" opacity=".35" fill="none"/>
+    <rect x="0" y="762" width="1152" height="14" fill="#0b0710" opacity=".22"/>
+  </g>
   <line x1="0" y1="761" x2="1152" y2="761" stroke="#241019" stroke-width="6" stroke-linecap="round"/>
   <ellipse cx="576" cy="826" rx="310" ry="50" fill="#5b1e86" stroke="#241019" stroke-width="6" stroke-linejoin="round" opacity="0.75"/>
   <rect x="564" y="0" width="24" height="896" fill="#0b0710" opacity="0.65"/>
@@ -26,6 +52,8 @@
     <path d="M52 70 Q44 180 58 320 L86 320 Q72 180 80 70 Z" fill="#b03aeb" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <path d="M276 70 Q284 180 270 320 L242 320 Q256 180 248 70 Z" fill="#b03aeb" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <rect x="64" y="80" width="200" height="240" rx="6" fill="#6b4226" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="222.0" y="83.0" width="40.0" height="234.0" rx="6.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M70.0 88.0 L220.0 88.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="80" y="96" width="168" height="208" fill="#0b0710" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <line x1="164" y1="96" x2="164" y2="304" stroke="#6b4226" stroke-width="8"/>
     <line x1="80" y1="200" x2="248" y2="200" stroke="#6b4226" stroke-width="8"/>
@@ -54,6 +82,8 @@
   </g>
   <g>
     <rect x="330" y="240" width="90" height="70" fill="#6b4226" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="400.0" y="243.0" width="18.0" height="64.0" rx="0.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M335.0 245.6 L398.0 245.6" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="340" y="250" width="70" height="50" fill="#150b1e" stroke="#241019" stroke-width="4"/>
     <circle cx="375" cy="278" r="16" fill="#ff7518" stroke="#241019" stroke-width="4"/>
     <path d="M375 262 L375 256" stroke="#3c2415" stroke-width="5" stroke-linecap="round"/>
@@ -61,7 +91,11 @@
   </g>
   <g>
     <rect x="36" y="540" width="44" height="220" rx="8" fill="#6b4226" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="69.2" y="543.0" width="8.8" height="214.0" rx="4.4" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M44.0 548.0 L67.2 548.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="80" y="660" width="400" height="100" rx="8" fill="#3c2415" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="438.0" y="663.0" width="40.0" height="94.0" rx="8.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M88.0 668.0 L436.0 668.0" stroke="#6b4226" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="80" y="612" width="400" height="60" rx="10" fill="#b03aeb" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
     <path d="M180 616 Q176 642 182 668 M300 614 Q296 642 302 670 M410 616 Q406 642 412 668" stroke="#7a2bb0" stroke-width="4" fill="none" opacity=".8" stroke-linecap="round"/>
     <rect x="96" y="618" width="130" height="40" rx="12" fill="#f6efe4" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
@@ -88,6 +122,8 @@
   </g>
   <g>
     <rect x="496" y="650" width="72" height="110" fill="#6b4226" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="551.6" y="653.0" width="14.4" height="104.0" rx="0.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M501.0 658.0 L549.6 658.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <line x1="496" y1="705" x2="568" y2="705" stroke="#241019" stroke-width="4"/>
     <circle cx="532" cy="678" r="4.5" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
     <circle cx="532" cy="732" r="4.5" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
@@ -116,7 +152,11 @@
   </g>
   <g>
     <rect x="600" y="636" width="536" height="26" rx="6" fill="#6b4226" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="1094.0" y="639.0" width="40.0" height="20.0" rx="6.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M606.0 640.0 L1092.0 640.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="612" y="662" width="512" height="98" fill="#3c2415" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="1082.0" y="665.0" width="40.0" height="92.0" rx="0.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M617.0 669.8 L1080.0 669.8" stroke="#6b4226" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <line x1="740" y1="662" x2="740" y2="760" stroke="#241019" stroke-width="4"/>
     <line x1="868" y1="662" x2="868" y2="760" stroke="#241019" stroke-width="4"/>
     <line x1="996" y1="662" x2="996" y2="760" stroke="#241019" stroke-width="4"/>
@@ -159,8 +199,14 @@
     <path d="M36 -148 L58 -104" fill="none" stroke="#3a5a8c" stroke-width="11" stroke-linecap="round"/>
     <circle cx="62" cy="-100" r="7" fill="#f2e8dc" stroke="#241019" stroke-width="4"/>
     <path d="M-44 -158 Q-52 -80 -60 -8 Q-60 2 -48 2 L48 2 Q60 2 60 -8 Q52 -80 44 -158 Q0 -172 -44 -158 Z" fill="#3a5a8c" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <path class="rc-cape" d="M14 -164 Q44 -156 46 -120 Q52 -60 58 -8 Q58 2 48 2 L26 2 Q30 -70 14 -164 Z" fill="#000000" opacity=".38"/>
+    <path class="rc-cape" d="M-40 -152 Q-48 -80 -54 -12" fill="none" stroke="#5d4a78" stroke-width="3.5" stroke-linecap="round" opacity=".8"/>
+    <path class="rc-cape" d="M-8 -60 Q-10 -30 -14 -4 M10 -90 Q12 -50 16 -4" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" opacity=".35"/>
     <path d="M-15 -156 L0 -118 L15 -156 Q0 -163 -15 -156 Z" fill="#f6efe4" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <circle cx="0" cy="-192" r="25" fill="#f2e8dc" stroke="#241019" stroke-width="6"/>
+    <path class="rc-face" d="M3.8 -216.7 A25 25 0 0 1 3.8 -167.3 A30.0 30.0 0 0 0 3.8 -216.7 Z" fill="#d6c3ae"/>
+    <path class="rc-face" d="M-13.8 -171.2 Q0 -165.0 13.8 -171.2 Q0 -168.2 -13.8 -171.2 Z" fill="#d6c3ae"/>
+    <path class="rc-face" d="M2.0 -190.8 q4.0 5.0 -1.0 7.5" fill="none" stroke="#8a6a58" stroke-width="2.4" stroke-linecap="round"/>
     <path d="M-25 -196 Q-27 -224 0 -224 Q27 -224 25 -196 Q17 -210 0 -208 Q-17 -210 -25 -196 Z" fill="#14101c" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <circle cx="-11" cy="-194" r="7" fill="#ffffff" stroke="#241019" stroke-width="3"/>
     <circle cx="11" cy="-194" r="7" fill="#ffffff" stroke="#241019" stroke-width="3"/>
@@ -244,6 +290,8 @@
   <path d="M576 796H1152M576 836H1152M576 876H1152M640 760V896M720 760V896M800 760V896M880 760V896M960 760V896M1040 760V896M1120 760V896" stroke="#3a2230" stroke-width="2" opacity=".7" fill="none"/>
   <g>
     <rect x="845" y="210" width="96" height="126" rx="8" fill="#6b4226" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="919.8" y="213.0" width="19.2" height="120.0" rx="8.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M853.0 218.0 L917.8 218.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="856" y="221" width="74" height="104" fill="#cfe6f8" opacity=".3" stroke="#241019" stroke-width="4"/>
     <path d="M862 320L924 230" stroke="#e8dcc8" stroke-width="6" opacity=".5" stroke-linecap="round"/>
   </g>

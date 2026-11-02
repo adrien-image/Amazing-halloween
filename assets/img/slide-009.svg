@@ -1,5 +1,18 @@
 <?xml version="1.0" ?>
+<!-- rich-cel-v1 -->
+<!-- rich-cel-v2 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 896" width="1152" height="896">
+  <defs>
+    <pattern id="rc-wallpaper" x="46" y="18" width="92" height="116" patternUnits="userSpaceOnUse">
+      <path d="M46 14 Q54 30 46 44 Q38 30 46 14 Z M46 44 Q60 46 64 58 Q52 56 46 44 Z M46 44 Q32 46 28 58 Q40 56 46 44 Z M43 44 L49 44 L48 66 L44 66 Z" fill="#0b0710"/>
+      <circle cx="46" cy="76" r="3"/>
+      <path d="M0 100 L6 106 L0 112 L-6 106 Z M92 100 L98 106 L92 112 L86 106 Z" fill="#0b0710"/>
+    </pattern>
+    <pattern id="rc-grain" width="40" height="64" patternUnits="userSpaceOnUse" patternTransform="skewX(-19)">
+      <path d="M8 0 Q12 16 8 32 Q4 48 8 64 M24 6 Q28 18 25 30 M30 34 Q34 46 30 60 M16 40 Q19 48 16 56" fill="none" stroke="#120a10" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="25" cy="31" rx="2.6" ry="5" fill="none" stroke="#120a10" stroke-width="1.6"/>
+    </pattern>
+  </defs>
   <rect x="0" y="0" width="1152" height="896" fill="#150b1e"/>
   <path d="M0 0 L1152 0 L772 140 L380 140 Z" fill="#0d0714" stroke="none"/>
   <path d="M0 0 L380 140 L380 762 L0 896 Z" fill="#170e20" stroke="none"/>
@@ -41,10 +54,14 @@
   <line x1="576" y1="220" x2="576" y2="480" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
   <line x1="486" y1="350" x2="666" y2="350" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
   <rect x="398" y="270" width="64" height="84" fill="#6b4226" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+  <rect class="rc-shade" x="447.2" y="273.0" width="12.8" height="78.0" rx="0.0" fill="#000000" opacity=".24"/>
+  <path class="rc-shade" d="M403.0 276.7 L445.2 276.7" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
   <rect x="406" y="278" width="48" height="68" fill="#d9cbb2" opacity="0.5" stroke="none"/>
   <circle cx="430" cy="305" r="9" fill="#241019" opacity="0.5" stroke="none"/>
   <path d="M414 346 Q430 322 446 346 Z" fill="#241019" opacity="0.5" stroke="none"/>
   <rect x="688" y="270" width="64" height="84" fill="#6b4226" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+  <rect class="rc-shade" x="737.2" y="273.0" width="12.8" height="78.0" rx="0.0" fill="#000000" opacity=".24"/>
+  <path class="rc-shade" d="M693.0 276.7 L735.2 276.7" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
   <rect x="696" y="278" width="48" height="68" fill="#d9cbb2" opacity="0.5" stroke="none"/>
   <circle cx="720" cy="305" r="9" fill="#241019" opacity="0.5" stroke="none"/>
   <path d="M704 346 Q720 322 736 346 Z" fill="#241019" opacity="0.5" stroke="none"/>
@@ -58,8 +75,12 @@
   <path d="M254 262 L288 270 L288 740 L254 755 Z" fill="none" stroke="#241019" stroke-width="4" stroke-linejoin="round" opacity=".8"/>
   <circle cx="284" cy="545" r="4" fill="#e8b64c" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
   <rect x="0" y="852" width="320" height="44" fill="#4a2c3a" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+  <rect class="rc-shade" x="278.0" y="855.0" width="40.0" height="38.0" rx="0.0" fill="#000000" opacity=".24"/>
+  <path class="rc-shade" d="M5.0 856.0 L276.0 856.0" stroke="#6e4a5a" stroke-width="3" stroke-linecap="round" opacity=".9"/>
   <rect x="0" y="806" width="260" height="46" fill="#3f2733" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
   <rect x="0" y="762" width="200" height="44" fill="#4a2c3a" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+  <rect class="rc-shade" x="158.0" y="765.0" width="40.0" height="38.0" rx="0.0" fill="#000000" opacity=".24"/>
+  <path class="rc-shade" d="M5.0 766.0 L156.0 766.0" stroke="#6e4a5a" stroke-width="3" stroke-linecap="round" opacity=".9"/>
   <path d="M120 850 l12 -7 M132 862 l14 -5 M210 770 l16 -8 M222 784 l18 -6" stroke="#b03aeb" stroke-width="3" stroke-linecap="round" opacity=".5" fill="none"/>
   <rect x="950" y="700" width="130" height="16" rx="3" fill="#3c2415" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
   <line x1="965" y1="716" x2="965" y2="762" stroke="#241019" stroke-width="6" stroke-linecap="round"/>
@@ -79,16 +100,24 @@
     <path d="M36 -148 L58 -198" fill="none" stroke="#1a1420" stroke-width="11" stroke-linecap="round"/>
     <circle cx="62" cy="-202" r="7" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
     <path d="M-44 -158 Q-52 -80 -60 -8 Q-60 2 -48 2 L48 2 Q60 2 60 -8 Q52 -80 44 -158 Q0 -172 -44 -158 Z" fill="#1a1420" stroke="#241019" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+    <path class="rc-cape" d="M14 -164 Q44 -156 46 -120 Q52 -60 58 -8 Q58 2 48 2 L26 2 Q30 -70 14 -164 Z" fill="#000000" opacity=".38"/>
+    <path class="rc-cape" d="M-40 -152 Q-48 -80 -54 -12" fill="none" stroke="#5d4a78" stroke-width="3.5" stroke-linecap="round" opacity=".8"/>
+    <path class="rc-cape" d="M-8 -60 Q-10 -30 -14 -4 M10 -90 Q12 -50 16 -4" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" opacity=".35"/>
     <path d="M-32 -162 L-48 -200 L-10 -178 Z" fill="#120d18" stroke="#241019" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
     <path d="M32 -162 L48 -200 L10 -178 Z" fill="#120d18" stroke="#241019" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
     <path d="M-15 -156 L0 -118 L15 -156 Q0 -163 -15 -156 Z" fill="#f6efe4" stroke="#241019" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
     <circle cx="0" cy="-192" r="25" fill="#f2e8dc" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+    <path class="rc-face" d="M3.8 -216.7 A25 25 0 0 1 3.8 -167.3 A30.0 30.0 0 0 0 3.8 -216.7 Z" fill="#d6c3ae"/>
+    <path class="rc-face" d="M-13.8 -171.2 Q0 -165.0 13.8 -171.2 Q0 -168.2 -13.8 -171.2 Z" fill="#d6c3ae"/>
+    <path class="rc-face" d="M2.0 -190.8 q4.0 5.0 -1.0 7.5" fill="none" stroke="#8a6a58" stroke-width="2.4" stroke-linecap="round"/>
     <path d="M-25 -196 Q-27 -224 0 -224 Q27 -224 25 -196 Q17 -210 0 -208 Q-17 -210 -25 -196 Z" fill="#14101c" stroke="#241019" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
     <path d="M-7 -209 L0 -198 L7 -209 Q0 -213 -7 -209 Z" fill="#14101c" stroke="none"/>
     <path d="M-16 -203 L-6 -208" fill="none" stroke="#241019" stroke-width="3" stroke-linecap="round"/>
     <path d="M6 -208 L16 -203" fill="none" stroke="#241019" stroke-width="3" stroke-linecap="round"/>
     <circle cx="-9" cy="-194" r="3.4" fill="#241019" stroke="none"/>
+    <circle class="rc-eye" cx="-7.8" cy="-195.4" r="1.29" fill="#ffffff"/>
     <circle cx="9" cy="-194" r="3.4" fill="#241019" stroke="none"/>
+    <circle class="rc-eye" cx="10.2" cy="-195.4" r="1.29" fill="#ffffff"/>
     <ellipse cx="0" cy="-178" rx="3.6" ry="5" fill="#241019" stroke="none"/>
     <path d="M-5 -182 L-1 -182 L-3 -175 Z" fill="#ffffff" stroke="#241019" stroke-width="2" stroke-linejoin="round"/>
     <g transform="translate(66 -252) scale(1.05)">

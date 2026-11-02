@@ -1,6 +1,26 @@
 <?xml version="1.0" ?>
+<!-- rich-cel-v1 -->
+<!-- rich-cel-v2 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 896" width="1152" height="896">
+  <defs>
+    <pattern id="rc-wallpaper" x="46" y="18" width="92" height="116" patternUnits="userSpaceOnUse">
+      <path d="M46 14 Q54 30 46 44 Q38 30 46 14 Z M46 44 Q60 46 64 58 Q52 56 46 44 Z M46 44 Q32 46 28 58 Q40 56 46 44 Z M43 44 L49 44 L48 66 L44 66 Z" fill="#0b0710"/>
+      <circle cx="46" cy="76" r="3"/>
+      <path d="M0 100 L6 106 L0 112 L-6 106 Z M92 100 L98 106 L92 112 L86 106 Z" fill="#0b0710"/>
+    </pattern>
+    <pattern id="rc-grain" width="40" height="64" patternUnits="userSpaceOnUse" patternTransform="skewX(-19)">
+      <path d="M8 0 Q12 16 8 32 Q4 48 8 64 M24 6 Q28 18 25 30 M30 34 Q34 46 30 60 M16 40 Q19 48 16 56" fill="none" stroke="#120a10" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="25" cy="31" rx="2.6" ry="5" fill="none" stroke="#120a10" stroke-width="1.6"/>
+    </pattern>
+  </defs>
   <rect x="0" y="0" width="1152" height="896" fill="#150b1e"/>
+  <g class="rc-wall">
+    <rect x="0" y="0" width="1152" height="762" fill="url(#rc-wallpaper)" opacity=".16"/>
+    <rect x="0" y="0" width="1152" height="34" fill="#0b0710" opacity=".22"/>
+    <rect x="0" y="34" width="1152" height="10" fill="#0b0710" opacity=".1"/>
+    <rect x="0" y="726" width="1152" height="36" fill="#0b0710" opacity=".18"/>
+    <rect x="0" y="716" width="1152" height="10" fill="#0b0710" opacity=".08"/>
+  </g>
   <path d="M46 0V700M138 0V700M230 0V700M322 0V700M414 0V700M506 0V700M598 0V700M690 0V700M782 0V700M874 0V700M966 0V700M1058 0V700M1150 0V700" stroke="#b03aeb" stroke-width="10" opacity=".06" fill="none"/>
   <line x1="0" y1="150" x2="1152" y2="150" stroke="#3a2230" stroke-width="4" opacity=".7"/>
   <g fill="#b03aeb" opacity=".07">
@@ -21,6 +41,8 @@
     <line x1="142" y1="566" x2="142" y2="652" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
     <path d="M142 652 Q142 664 152 664" fill="none" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
     <rect x="118" y="660" width="48" height="62" rx="8" fill="#3c2415" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="154.4" y="663.0" width="9.6" height="56.0" rx="4.8" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M126.0 665.0 L152.4 665.0" stroke="#6b4226" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <ellipse cx="260" cy="252" rx="22" ry="6" fill="#1a1420" stroke="#241019" stroke-width="4"/>
     <path d="M244 250 Q246 228 260 228 Q274 228 276 250 Z" fill="#1a1420" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
     <line x1="330" y1="700" x2="352" y2="580" stroke="#6b4226" stroke-width="7" stroke-linecap="round"/>
@@ -29,6 +51,8 @@
   </g>
   <g>
     <rect x="745" y="170" width="100" height="120" rx="4" fill="#6b4226" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="823.0" y="173.0" width="20.0" height="114.0" rx="4.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M750.0 178.0 L821.0 178.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="754" y="179" width="82" height="102" fill="#e8dcc8" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
     <circle cx="784" cy="216" r="11" fill="#241019" opacity=".55" stroke="none"/>
     <circle cx="810" cy="220" r="9" fill="#241019" opacity=".55" stroke="none"/>
@@ -38,6 +62,8 @@
       <path d="M752 176 Q760 186 758 196"/>
     </g>
     <rect x="752" y="320" width="84" height="100" rx="4" fill="#6b4226" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="817.2" y="323.0" width="16.8" height="94.0" rx="4.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M757.0 328.0 L815.2 328.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="760" y="328" width="68" height="84" fill="#d9cbb2" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
     <circle cx="786" cy="360" r="9" fill="#241019" opacity=".55" stroke="none"/>
     <path d="M772 412 Q786 382 800 412 Z" fill="#241019" opacity=".55" stroke="none"/>
@@ -45,6 +71,8 @@
   <g>
     <rect x="868" y="128" width="224" height="284" rx="20" fill="#ffd27a" opacity=".14" stroke="none"/>
     <rect x="880" y="140" width="200" height="260" rx="4" fill="#6b4226" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="1038.0" y="143.0" width="40.0" height="254.0" rx="4.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M885.0 148.0 L1036.0 148.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="892" y="152" width="80" height="112" fill="#ffd27a" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <rect x="988" y="152" width="80" height="112" fill="#ffd27a" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <rect x="892" y="276" width="80" height="112" fill="#ffd27a" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
@@ -62,6 +90,8 @@
   <polygon points="880,412 1000,412 700,896 560,896" fill="#ffd27a" opacity=".06"/>
   <g>
     <rect x="420" y="130" width="300" height="580" rx="6" fill="#6b4226" stroke="#241019" stroke-width="8" stroke-linejoin="round"/>
+    <rect class="rc-shade" x="678.0" y="133.0" width="40.0" height="574.0" rx="6.0" fill="#000000" opacity=".24"/>
+    <path class="rc-shade" d="M426.0 138.0 L676.0 138.0" stroke="#a06a40" stroke-width="3" stroke-linecap="round" opacity=".9"/>
     <rect x="438" y="148" width="264" height="544" fill="#0b0710" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
     <rect x="438" y="676" width="264" height="16" fill="#150b1e" stroke="none"/>
     <g stroke="#241019" stroke-width="9" stroke-linecap="round" opacity=".9">
@@ -104,6 +134,8 @@
   <polygon points="540,692 702,692 850,896 390,896" fill="#ffd27a" opacity=".12" stroke="none"/>
   <ellipse cx="620" cy="810" rx="190" ry="32" fill="#5b1e86" stroke="#241019" stroke-width="6" stroke-linejoin="round" opacity=".6"/>
   <rect x="500" y="726" width="240" height="40" rx="10" fill="#5b1e86" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
+  <rect class="rc-shade" x="698.0" y="729.0" width="40.0" height="34.0" rx="10.0" fill="#000000" opacity=".24"/>
+  <path class="rc-shade" d="M510.0 730.0 L696.0 730.0" stroke="#8a3fc0" stroke-width="3" stroke-linecap="round" opacity=".9"/>
   <rect x="514" y="737" width="212" height="18" rx="6" fill="none" stroke="#b03aeb" stroke-width="3" opacity=".7"/>
   <g>
     <ellipse cx="712" cy="830" rx="26" ry="7" fill="#000000" opacity=".25"/>
