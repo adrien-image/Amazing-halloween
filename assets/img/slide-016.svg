@@ -33,25 +33,6 @@
     <circle cx="565" cy="162" r="22" fill="#1a1420"/>
     <path d="M535 234 Q565 198 595 234 Z" fill="#1a1420"/>
   </g>
-  <path d="M0 150 Q200 232 400 190 Q600 148 800 210 Q1000 252 1152 170" fill="none" stroke="#241019" stroke-width="4" stroke-linecap="round"/>
-  <g stroke="#241019" stroke-width="3" stroke-linejoin="round">
-    <circle cx="100" cy="192" r="15" fill="#ffd27a" opacity=".22" stroke="none"/>
-    <circle cx="100" cy="192" r="9" fill="#ffd27a"/>
-    <circle cx="250" cy="216" r="15" fill="#ff7518" opacity=".22" stroke="none"/>
-    <circle cx="250" cy="216" r="9" fill="#ff7518"/>
-    <circle cx="400" cy="190" r="15" fill="#b03aeb" opacity=".25" stroke="none"/>
-    <circle cx="400" cy="190" r="9" fill="#b03aeb"/>
-    <circle cx="550" cy="166" r="15" fill="#ffd27a" opacity=".22" stroke="none"/>
-    <circle cx="550" cy="166" r="9" fill="#ffd27a"/>
-    <circle cx="700" cy="184" r="15" fill="#ff7518" opacity=".22" stroke="none"/>
-    <circle cx="700" cy="184" r="9" fill="#ff7518"/>
-    <circle cx="850" cy="214" r="15" fill="#b03aeb" opacity=".25" stroke="none"/>
-    <circle cx="850" cy="214" r="9" fill="#b03aeb"/>
-    <circle cx="1000" cy="234" r="15" fill="#ffd27a" opacity=".22" stroke="none"/>
-    <circle cx="1000" cy="234" r="9" fill="#ffd27a"/>
-    <circle cx="1120" cy="190" r="15" fill="#ff7518" opacity=".22" stroke="none"/>
-    <circle cx="1120" cy="190" r="9" fill="#ff7518"/>
-  </g>
   <circle cx="325" cy="516" r="64" fill="#ffd27a" opacity=".12"/>
   <rect x="270" y="600" width="112" height="14" rx="6" fill="#6b4226" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
   <rect x="312" y="530" width="26" height="70" rx="6" fill="#ffd27a" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>

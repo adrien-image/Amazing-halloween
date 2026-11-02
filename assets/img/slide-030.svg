@@ -155,9 +155,6 @@
   <circle cx="580" cy="639" r="2.5" fill="#e8b64c"/>
   <circle cx="580" cy="653" r="2.5" fill="#e8b64c"/>
   <circle cx="402" cy="634" r="4.5" fill="#b3122e" stroke="#241019" stroke-width="2.5"/>
-  <circle cx="862" cy="682" r="6" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
-  <path d="M862 682 L874 664" stroke="#e8b64c" stroke-width="3" stroke-linecap="round"/>
-  <path d="M806 664 q5 -8 0 -16" stroke="#d9cbb2" stroke-width="3" fill="none" stroke-linecap="round"/>
   <g fill="#ffd27a" opacity=".4">
     <circle cx="710" cy="600" r="2.5"/>
     <circle cx="740" cy="580" r="2"/>

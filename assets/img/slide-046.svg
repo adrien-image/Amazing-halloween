@@ -37,44 +37,6 @@
     <path d="M520 210L523 217L530 220L523 223L520 230L517 223L510 220L517 217Z" fill="#ffd27a"/>
     <rect x="420" y="324" width="230" height="16" rx="4" fill="#6b4226" stroke="#241019" stroke-width="5" stroke-linejoin="round"/>
   </g>
-  <path d="M0 118Q288 196 576 126Q864 196 1152 118" stroke="#241019" stroke-width="4" fill="none"/>
-  <g>
-    <g>
-      <line x1="100" y1="146" x2="100" y2="154" stroke="#241019" stroke-width="2.5"/>
-      <circle cx="100" cy="159" r="13" fill="#ffd27a" opacity=".3"/>
-      <circle cx="100" cy="159" r="7" fill="#ffd27a" stroke="#241019" stroke-width="3"/>
-    </g>
-    <g>
-      <line x1="250" y1="172" x2="250" y2="180" stroke="#241019" stroke-width="2.5"/>
-      <circle cx="250" cy="185" r="13" fill="#ff7518" opacity=".3"/>
-      <circle cx="250" cy="185" r="7" fill="#ff7518" stroke="#241019" stroke-width="3"/>
-    </g>
-    <g>
-      <line x1="420" y1="164" x2="420" y2="172" stroke="#241019" stroke-width="2.5"/>
-      <circle cx="420" cy="177" r="13" fill="#b03aeb" opacity=".3"/>
-      <circle cx="420" cy="177" r="7" fill="#b03aeb" stroke="#241019" stroke-width="3"/>
-    </g>
-    <g>
-      <line x1="576" y1="126" x2="576" y2="134" stroke="#241019" stroke-width="2.5"/>
-      <circle cx="576" cy="139" r="13" fill="#ffd27a" opacity=".3"/>
-      <circle cx="576" cy="139" r="7" fill="#ffd27a" stroke="#241019" stroke-width="3"/>
-    </g>
-    <g>
-      <line x1="730" y1="164" x2="730" y2="172" stroke="#241019" stroke-width="2.5"/>
-      <circle cx="730" cy="177" r="13" fill="#ff7518" opacity=".3"/>
-      <circle cx="730" cy="177" r="7" fill="#ff7518" stroke="#241019" stroke-width="3"/>
-    </g>
-    <g>
-      <line x1="900" y1="172" x2="900" y2="180" stroke="#241019" stroke-width="2.5"/>
-      <circle cx="900" cy="185" r="13" fill="#b03aeb" opacity=".3"/>
-      <circle cx="900" cy="185" r="7" fill="#b03aeb" stroke="#241019" stroke-width="3"/>
-    </g>
-    <g>
-      <line x1="1050" y1="146" x2="1050" y2="154" stroke="#241019" stroke-width="2.5"/>
-      <circle cx="1050" cy="159" r="13" fill="#ffd27a" opacity=".3"/>
-      <circle cx="1050" cy="159" r="7" fill="#ffd27a" stroke="#241019" stroke-width="3"/>
-    </g>
-  </g>
   <path d="M0 0Q6 -10 12 -1Q18 -10 24 0Q18 -3 12 4Q6 -3 0 0Z" transform="translate(660 150)" fill="#150b1e" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
   <path d="M0 0Q6 -10 12 -1Q18 -10 24 0Q18 -3 12 4Q6 -3 0 0Z" transform="translate(700 112) scale(.7)" fill="#150b1e" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
   <g>

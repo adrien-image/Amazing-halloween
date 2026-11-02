@@ -1,20 +1,6 @@
 <?xml version="1.0" ?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1152 896" width="1152" height="896">
-  <rect x="0" y="0" width="1152" height="896" fill="#150b1e"/>
-  <g fill="#e8dcc8" opacity=".7">
-    <circle cx="296" cy="60" r="3"/>
-    <circle cx="621" cy="73" r="3"/>
-    <circle cx="1145" cy="513" r="3"/>
-    <circle cx="205" cy="454" r="3"/>
-    <circle cx="1133" cy="195" r="3"/>
-    <circle cx="306" cy="373" r="3"/>
-    <circle cx="537" cy="247" r="3"/>
-    <circle cx="461" cy="72" r="3"/>
-  </g>
-  <circle cx="952" cy="138" r="56" fill="#e8dcc8" stroke="#241019" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="935.2" cy="126.8" r="9" fill="#d9cbb2" opacity=".9"/>
-  <circle cx="966" cy="154.8" r="6.2" fill="#d9cbb2" opacity=".9"/>
-  <circle cx="957.6" cy="112.8" r="4.5" fill="#d9cbb2" opacity=".9"/>
+  <rect x="0" y="0" width="1152" height="896" fill="#2a1a33"/>
   <g fill="#1a1420">
     <path d="M0 0 Q6 -8 12 -2 Q18 -10 24 0 Q18 -2 12 4 Q6 -2 0 0 Z" transform="translate(700 60)"/>
     <path d="M0 0 Q6 -8 12 -2 Q18 -10 24 0 Q18 -2 12 4 Q6 -2 0 0 Z" transform="translate(762 92) scale(.75)"/>
@@ -321,7 +307,6 @@
     <path d="M-40 -150 Q-46 -76 -52 -6 L-30 -6 Q-36 -76 -34 -150 Z" fill="#2a1f38" stroke="#241019" stroke-width="3" stroke-linejoin="round"/>
     <circle cx="0" cy="-152" r="5" fill="#e8b64c" stroke="#241019" stroke-width="3"/>
   </g>
-  <path d="M150 30 L130 80 L155 85 L125 150" fill="none" stroke="#e8dcc8" stroke-width="5" opacity=".3" stroke-linecap="round" stroke-linejoin="round"/>
   <g>
     <rect x="30" y="810" width="170" height="70" rx="8" fill="#3c2415" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
     <rect x="42" y="820" width="146" height="50" rx="6" fill="none" stroke="#b03aeb" stroke-width="4" opacity=".35"/>

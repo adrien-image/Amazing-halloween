@@ -59,7 +59,7 @@
       <circle cx="-22.5" cy="-41" r="1.8"/>
       <circle cx="-13" cy="-50.5" r="1.8"/>
     </g>
-    <line x1="0" y1="-28" x2="-2" y2="-54" stroke="#241019" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="-28" x2="-2.5" y2="-45.8" stroke="#241019" stroke-width="6" stroke-linecap="round"/>
     <line x1="0" y1="-28" x2="-26" y2="-25" stroke="#241019" stroke-width="5" stroke-linecap="round"/>
     <circle cx="0" cy="-28" r="4" fill="#241019"/>
     <rect x="-30" y="18" width="60" height="12" rx="4" fill="#3c2415" stroke="#241019" stroke-width="5"/>

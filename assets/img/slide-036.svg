@@ -97,8 +97,7 @@
     <path d="M238 780 L244 786 L250 780 L256 786 L262 780 L258 790 L242 790 Z" fill="#241019"/>
   </g>
   <ellipse cx="576" cy="712" rx="420" ry="26" fill="#e8dcc8" opacity=".05"/>
-  <polygon points="690,600 780,625 775,675 685,655" fill="#ffd27a" opacity=".12"/>
-  <g transform="translate(560 806) scale(1.1)">
+  <g transform="translate(640 806) scale(1.1)">
     <ellipse cx="0" cy="4" rx="56" ry="11" fill="#000000" opacity=".28"/>
     <path d="M-12 -62 L-16 -6" fill="none" stroke="#241a2e" stroke-width="15" stroke-linecap="round"/>
     <path d="M12 -62 L16 -6" fill="none" stroke="#241a2e" stroke-width="15" stroke-linecap="round"/>
@@ -106,12 +105,12 @@
     <ellipse cx="18" cy="-4" rx="15" ry="7" fill="#14101c" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
     <path d="M-34 -146 L-52 -100" fill="none" stroke="#1a1420" stroke-width="11" stroke-linecap="round"/>
     <circle cx="-56" cy="-96" r="7" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
-    <path d="M34 -146 L157 -142" fill="none" stroke="#1a1420" stroke-width="11" stroke-linecap="round"/>
-    <circle cx="167" cy="-142" r="10" fill="#ffd27a" opacity=".3" stroke="none"/>
-    <circle cx="167" cy="-142" r="10" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
-    <circle cx="163" cy="-146" r="4" fill="#0b0710"/>
-    <circle cx="171" cy="-138" r="4" fill="#0b0710"/>
-    <circle cx="167" cy="-142" r="14" fill="none" stroke="#ffd27a" stroke-width="2.5" opacity=".6"/>
+    <path d="M34 -146 L84 -142" fill="none" stroke="#1a1420" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="94" cy="-142" r="10" fill="#ffd27a" opacity=".3" stroke="none"/>
+    <circle cx="94" cy="-142" r="10" fill="#f2e8dc" stroke="#241019" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="90" cy="-146" r="4" fill="#0b0710"/>
+    <circle cx="98" cy="-138" r="4" fill="#0b0710"/>
+    <circle cx="94" cy="-142" r="14" fill="none" stroke="#ffd27a" stroke-width="2.5" opacity=".6"/>
     <path d="M-44 -158 Q-52 -80 -60 -8 Q-60 2 -48 2 L48 2 Q60 2 60 -8 Q52 -80 44 -158 Q0 -172 -44 -158 Z" fill="#1a1420" stroke="#241019" stroke-width="7" stroke-linejoin="round"/>
     <path d="M-32 -162 L-48 -200 L-10 -178 Z" fill="#120d18" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
     <path d="M32 -162 L48 -200 L10 -178 Z" fill="#120d18" stroke="#241019" stroke-width="6" stroke-linejoin="round"/>
